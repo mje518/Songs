@@ -1,0 +1,42 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"SB\Bump Birds.png",320,240
+ L,47403,65
+  F,1,0,343,1,0
+  S,1,0,343,1,1.5
+ M,0,47403,,320,140
+ F,0,57507,57693,0.273581,0
+Sprite,Background,Centre,"SB\White.png",320,240
+ M,0,58364,,320,240
+ F,0,58364,59734,1,0
+Sprite,Background,Centre,"SB\BG Bump.png",320,240
+ L,69324,65
+  F,1,0,343,1,0
+  S,1,0,343,1,1.05
+ L,136459,127
+  F,1,0,343,1,0
+  S,1,0,343,1,1.05
+ M,0,74928,,320,242
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Animation,Foreground,Centre,"SB\Animation\IMG0000.png",320,240,9,80,LoopForever
+ F,0,25139,25481,0,1
+ M,0,25481,,314,392
+ F,0,34986,35071,1
+ F,0,35071,35072,1,0
+ F,0,35072,112482,0
+ F,0,112482,113168,0,1
+ F,0,113168,125413,1
+ F,0,125413,125498,1,0
+Animation,Foreground,Centre,"SB\Animation2\IMG0002.png",320,240,10,70,LoopForever
+ M,0,35072,,314,392
+ F,0,47403,48088,1,0
+ F,0,48088,125413,0
+ F,0,125413,125498,0,1
+ F,0,125498,135774,1
+ F,0,135774,136459,1,0
+Animation,Foreground,Centre,"SB\Animation3\IMG000.png",320,240,5,100,LoopForever
+Animation,Foreground,Centre,"SB\Animation3\IMG000.png",320,240,5,100,LoopForever
+//Storyboard Sound Samples
