@@ -1,0 +1,1364 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"bg.jpg",320,240
+ F,0,0,,0
+Animation,Background,TopLeft,"bg\go.png",0,0,2,300,LoopForever
+ F,0,34930,35317,1
+Sprite,Background,Centre,"spr\go.png",320,240
+ S,0,34930,35027,0.4,1
+ F,0,34930,35317,1
+Sprite,Background,TopLeft,"bg\scn0_bg11.png",0,0
+ F,0,0,576,1
+Sprite,Background,BottomLeft,"spr\scn0_spr11.png",0,480
+ F,0,0,576,1
+Animation,Background,TopLeft,"bg\scn0_bg1.png",0,0,2,400,LoopForever
+ F,0,576,3382,1
+Animation,Background,BottomLeft,"spr\scn0_spr1.png",0,480,2,200,LoopForever
+ F,0,576,3382,1
+Animation,Background,TopLeft,"bg\scn0_bg2_.png",0,0,2,200,LoopForever
+ F,0,3382,8414,1
+Sprite,Background,BottomCentre,"spr\scn0_spr2.png",320,470
+ M,0,3382,8414,380,470,320,470
+ F,0,3382,8414,1
+ S,0,3382,8414,0.9,1.1
+Sprite,Background,Centre,"spr\scn0_txt2.png",320,220
+ L,4543,32
+  M,0,0,63,320,220,320,230
+  M,0,63,125,320,230,320,220
+ F,0,4543,8414,1
+Sprite,Background,TopLeft,"bg\scn0_bg3.jpg",0,0
+ M,2,8414,9963,-640,0,-320,0
+ M,1,9963,11414,-320,0,0,0
+ F,0,8414,13253,1
+Sprite,Background,Centre,"spr\scn0_spr3_smoke.png",0,0
+ M,0,12285,13059,280,280,500,280
+ F,0,12479,13059,1,0
+Sprite,Background,Centre,"spr\scn0_spr3.png",0,0
+ R,0,11898,,0
+ M,1,11898,12479,-100,280,320,280
+ M,0,12589,,260,340
+ R,0,12589,,-1
+ M,0,12589,12672,260,340,260,335
+ M,0,12672,12769,260,335,260,340
+ F,0,11898,13253,1
+Animation,Background,TopLeft,"bg\scn0_bg4_.png",0,0,2,800,LoopForever
+ F,0,13253,15576,1
+Sprite,Background,TopRight,"spr\scn0_spr4_3.png",0,0
+ M,1,13640,15188,0,240,640,0
+ F,0,13640,15576,1
+Sprite,Background,TopRight,"spr\scn0_spr4_2.png",0,0
+ M,1,13447,14995,0,240,640,0
+ F,0,13447,15576,1
+Sprite,Background,TopRight,"spr\scn0_spr4_1.png",0,0
+ M,1,13253,14801,0,240,640,0
+ F,0,13253,15576,1
+Sprite,Background,TopLeft,"bg\scn0_bg5.jpg",0,0
+ F,0,15576,,1
+ F,0,17414,,0
+Sprite,Background,BottomCentre,"spr\scn0_spr5_3.png",0,0
+ M,0,16447,16737,320,0,320,430
+ F,0,16447,16737,1
+Sprite,Background,BottomCentre,"spr\scn0_spr5_land3.png",320,400
+ F,0,16737,20414,1
+Sprite,Background,BottomCentre,"spr\scn0_spr5_2.png",0,0
+ M,0,16156,16447,320,0,320,480
+ F,0,16156,16447,1
+Sprite,Background,BottomCentre,"spr\scn0_spr5_land2.png",320,450
+ F,0,16447,20414,1
+Sprite,Background,BottomCentre,"spr\scn0_spr5_1.png",0,0
+ M,0,15866,16156,320,0,320,460
+ F,0,15866,16156,1
+Sprite,Background,BottomCentre,"spr\scn0_spr5_land1.png",320,480
+ F,0,16156,20414,1
+Sprite,Background,TopLeft,"spr\hey.png",0,0
+ F,0,17414,20414,1
+Sprite,Background,TopLeft,"black.png",0,0
+ F,0,18576,20414,0.7
+Sprite,Background,Centre,"spr\scn0_txt6_1.png",320,160
+ M,1,18578,18771,0,160,320,160
+ V,0,18578,,1,0.3
+ V,1,18771,18819,1,0.3,1,1
+ F,0,18576,20414,1
+Sprite,Background,Centre,"spr\scn0_txt6_2.png",320,240
+ M,1,18578,18771,640,240,320,240
+ V,0,18578,,1,0.3
+ V,1,18771,18819,1,0.3,1,1
+ F,0,18576,20414,1
+Sprite,Background,Centre,"spr\scn0_txt6_3.png",320,300
+ M,1,18578,18771,0,320,320,320
+ V,0,18578,,1,0.3
+ V,1,18771,18819,1,0.3,1,1
+ F,0,18576,20414,1
+Animation,Background,TopLeft,"bg\scn1_bg0_.png",0,0,2,800,LoopForever
+ F,0,20414,22543,1
+Animation,Background,BottomLeft,"bg\gavel.png",0,480,5,300,LoopOnce
+ F,0,22543,23705,1
+Sprite,Background,TopLeft,"bg\judgeGlare.jpg",0,0
+ F,0,23705,25253,1
+Sprite,Background,Centre,"spr\scn1_txt2.png",320,330
+ S,0,23705,,0.8
+ F,0,23705,25253,1
+Sprite,Background,TopLeft,"bg\scn1_bg2.jpg",0,0
+ F,0,25253,27576,1
+Sprite,Background,Centre,"spr\scn1_spr2_1.png",320,230
+ F,0,25253,27576,1
+Sprite,Background,BottomCentre,"spr\witbench.png",320,480
+ F,0,25253,27576,1
+Sprite,Background,Centre,"spr\scn1_txt3.png",320,330
+ S,0,25253,,0.8
+ F,0,25253,27576,1
+Sprite,Background,TopLeft,"bg\scn1_bg3.jpg",0,0
+ F,0,27576,29898,1
+Sprite,Background,TopLeft,"S3\ohno0.png",0,70
+ L,27576,24
+  M,0,0,46,0,70,0,72
+  M,0,46,94,0,72,0,70
+ F,0,27576,29898,1
+Sprite,Background,TopLeft,"spr\defbench.png",0,363
+ F,0,27576,29898,1
+Sprite,Background,BottomCentre,"spr\finalobjections.png",405,420
+ F,0,27576,29898,1
+Sprite,Background,TopLeft,"bg\scn1_bg4.png",0,0
+ F,0,29898,32221,1
+Sprite,Background,BottomCentre,"spr\pw-emo.png",355,445
+ L,29898,24
+  M,0,0,50,355,445,355,450
+  M,0,50,100,355,450,355,445
+ S,0,29898,,0.7
+ F,0,29898,32221,1
+Sprite,Background,TopLeft,"bg\courtroomfull.jpg",0,0
+ L,35317,3
+  M,0,0,3000,0,0
+  M,0,3000,3400,0,0,-1080,0
+  M,0,3400,6400,-1080,0
+  M,0,6400,6600,-1080,0,0,0
+ L,66148,4
+  M,0,0,3000,0,0
+  M,0,3000,3400,0,0,-1080,0
+  M,0,3400,6400,-1080,0
+  M,0,6400,6600,-1080,0,0,0
+ L,96820,6
+  M,0,0,3000,0,0
+  M,0,3000,3400,0,0,-1080,0
+  M,0,3400,6400,-1080,0
+  M,0,6400,6600,-1080,0,0,0
+ L,150300,6
+  M,0,0,3000,0,0
+  M,0,3000,3400,0,0,-1080,0
+  M,0,3400,6400,-1080,0
+  M,0,6400,6600,-1080,0,0,0
+ F,0,35317,,1
+ F,0,52321,,0
+ F,0,66147,,1
+ F,0,89117,,0
+ F,0,96819,,1
+ F,0,133581,,0
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Background,TopLeft,"bg\scn1_bg3.jpg",0,0
+ F,0,52322,,1
+ F,0,56966,,0
+ F,0,89118,,1
+ F,0,91412,,0
+ F,0,92176,,1
+ F,0,93802,,0
+Animation,Background,TopLeft,"pathos\hubbub.png",0,0,3,800,LoopForever
+ F,0,56967,58514,1
+Sprite,Background,TopLeft,"bg\scn1_bg2.jpg",0,0
+ F,0,61612,,0,1
+ F,0,63091,,1,0
+ F,0,91412,,1
+ F,0,92176,,0
+Animation,Background,TopLeft,"S2\aha.png",0,70,6,400,LoopForever
+ F,0,52322,55418,1
+Animation,Background,TopLeft,"spr\pw\wright.png",0,0,8,400,LoopForever
+ F,0,89118,,0,1
+ S,0,89118,,1.25
+ F,0,91412,,1,0
+Animation,Background,TopLeft,"S2\rar.png",0,70,4,400,LoopForever
+ M,1,92176,92368,0,70,-20,70
+ F,0,92176,92943,1
+Animation,Background,TopLeft,"S3\obj.png",0,40,4,400,LoopForever
+ M,1,92942,93132,-20,40,0,40
+ F,0,92942,93802,1
+Sprite,Background,TopLeft,"bg\courtroomfull.jpg",0,0
+ F,0,133581,,1
+ M,2,135456,135831,0,0,-540,0
+ M,1,135831,136206,-540,0,-1080,0
+ F,0,138268,,0
+Animation,Background,TopLeft,"S2\rar.png",0,70,4,400,LoopForever
+ F,0,133581,,1
+ M,2,135456,135831,0,70,-540,70
+ F,0,135831,,0
+Animation,Background,TopLeft,"S1\blah.png",0,0,5,400,LoopForever
+ F,0,135831,,1
+ M,1,135831,136206,820,30,280,30
+ F,0,138268,,0
+Sprite,Background,TopLeft,"spr\defbench.png",0,363
+ F,0,133581,,1
+ M,2,135456,135831,0,363,-540,363
+ F,0,135831,,0
+Sprite,Background,TopLeft,"spr\prosbench.png",0,0
+ F,0,135831,,1
+ M,1,135831,136206,540,363,0,363
+ F,0,138268,,0
+Sprite,Background,TopLeft,"bg\mayabg.jpg",0,0
+ F,0,138268,139768,1
+Animation,Background,BottomCentre,"spr\maya.png",350,480,3,400,LoopForever
+ F,0,138268,139768,1
+Sprite,Background,BottomCentre,"spr\scn4_txt3.png",250,400
+ F,0,138643,139768,1
+Sprite,Background,TopLeft,"pathos\hubbub1.png",0,0
+ F,0,187153,,1
+ F,0,189160,,0
+ F,0,203491,,1
+ F,0,205975,,0
+Animation,Background,TopLeft,"pathos\hubbub.png",0,0,3,1000,LoopForever
+ F,0,193746,195465,1
+Sprite,Background,TopLeft,"bg\GUMSHOOOOOOOE.jpg",0,0
+ F,0,189160,191070,1
+Sprite,Background,TopLeft,"bg\scn1_bg2.jpg",0,0
+ F,0,191070,,1
+ F,0,192408,,0
+ F,0,201580,,1
+ F,0,203491,,0
+ F,0,209797,,1
+ F,0,211707,,0
+Sprite,Background,BottomCentre,"pathos\Lfrown.png",320,480
+ F,0,191070,,1
+ F,0,192408,,0
+ F,0,201580,,1
+ F,0,202153,,0
+Sprite,Background,BottomCentre,"pathos\Ldefeat.png",320,480
+ F,0,202153,203491,1
+Sprite,Background,Centre,"spr\Lcool.png",320,230
+ F,0,209797,211707,1
+Sprite,Background,BottomCentre,"spr\witbench.png",320,480
+ F,0,191070,,1
+ F,0,192408,,0
+ F,0,201580,,1
+ F,0,203491,,0
+ F,0,209797,,1
+ F,0,211707,,0
+Sprite,Background,TopLeft,"bg\scn1_bg3.jpg",0,0
+ F,0,192408,193746,1
+Sprite,Background,BottomLeft,"S2\rar0.png",0,420
+ M,1,192408,192599,0,420,-30,420
+ F,0,192408,192790,1
+Animation,Background,TopLeft,"S3\obj.png",0,70,6,400,LoopForever
+ M,1,192790,192981,-20,70,0,70
+ F,0,192790,193746,1
+Sprite,Background,TopLeft,"bg\courtroomfull.jpg",-1080,0
+ M,2,197376,197758,-1080,0,-540,0
+ M,1,197758,198141,-540,0,0,0
+ F,0,195465,199860,1
+Animation,Background,BottomCentre,"S4\scn0_bg1.png",320,480,2,200,LoopForever
+ F,0,199860,201580,1
+Animation,Background,BottomLeft,"S4\extreme.png",0,480,3,500,LoopForever
+ F,0,199860,201580,1
+Sprite,Background,BottomLeft,"spr\scn5_txt7.png",220,460
+ F,0,199860,201580,1
+Sprite,Background,TopLeft,"bg\judgeShock.jpg",0,0
+ F,0,205975,207886,1
+Sprite,Background,TopLeft,"bg\judgehmm.jpg",0,0
+ F,0,207886,209797,1
+Sprite,Background,TopLeft,"bg\judgeGlare.jpg",0,0
+ F,0,211707,215147,1
+Animation,Background,BottomLeft,"bg\gavel.png",0,480,5,300,LoopOnce
+ F,0,217058,219351,1
+Sprite,Background,Centre,"spr\not.png",320,240
+ S,0,212854,213154,1.8,1
+ F,0,212854,215147,1
+Sprite,Background,Centre,"spr\nguilty.png",320,240
+ S,0,213618,213918,1.8,1
+ F,0,213618,215147,1
+Sprite,Background,TopLeft,"intro\page1a.png",0,0
+ S,0,-43300,-42000,2.5
+Sprite,Background,TopLeft,"intro\ohsorry.png",0,0
+ S,0,-44000,-43400,2.5
+Sprite,Background,TopLeft,"intro\ohbiteme.png",0,0
+ F,0,-43400,,1
+ S,0,-43400,,2.5
+ F,0,-43300,,0
+ F,0,-43200,,1
+ F,0,-43000,,0
+Sprite,Background,TopLeft,"intro\page1c.png",0,0
+ S,0,-42000,-40000,2.5
+Sprite,Background,TopLeft,"intro\page1f.png",0,0
+ S,0,-40000,-35000,2.5
+Sprite,Background,TopLeft,"intro\page2a.png",0,0
+ S,0,-35000,-30000,2.5
+Sprite,Background,TopLeft,"intro\page2c.png",0,0
+ S,0,-30000,-27000,2.5
+Sprite,Background,TopLeft,"intro\page2e.png",0,0
+ S,0,-27000,-23000,2.5
+Sprite,Background,TopLeft,"intro\page3a.png",0,0
+ S,0,-23000,-20000,2.5
+Sprite,Background,TopLeft,"intro\page3b.png",0,0
+ S,0,-20000,-17000,2.5
+Sprite,Background,TopLeft,"intro\page3d.png",0,0
+ S,0,-17000,-15000,2.5
+Sprite,Background,TopLeft,"intro\page4a.png",0,0
+ S,0,-15000,-7000,2.5
+Sprite,Background,TopLeft,"intro\page4e.png",0,0
+ S,0,-7000,-4500,2.5
+Sprite,Background,TopLeft,"intro\page4f.png",0,0
+ S,0,-4500,-1000,2.5
+//Storyboard Layer 1 (Fail)
+Animation,Fail,TopLeft,"S1\umm.png",0,0,9,400,LoopForever
+ L,35317,3
+  M,0,0,3000,0,30
+  M,0,3000,3400,0,30,-1080,30
+  M,0,3400,6400,-1080,30
+  M,0,6400,6600,-1080,30,0,30
+ F,0,35317,,1
+ F,0,52321,,0
+Animation,Fail,TopLeft,"S1\blah.png",0,0,5,400,LoopForever
+ L,35317,3
+  M,0,0,3000,0,1311
+  M,0,3000,3400,1311,30,280,30
+  M,0,3400,6400,280,30
+  M,0,6400,6600,280,30,1311,30
+ F,0,35317,,1
+ F,0,52321,,0
+Animation,Fail,TopLeft,"S2\rar.png",0,0,4,400,LoopForever
+ L,66148,4
+  M,0,0,3000,0,70
+  M,0,3000,3400,0,70,-1080,70
+  M,0,3400,6400,-1080,111
+  M,0,6400,6600,-1080,70,0,70
+ F,0,66148,,1
+ F,0,89117,,0
+Animation,Fail,TopLeft,"S2\tsk.png",0,0,2,800,LoopForever
+ L,66148,4
+  M,0,0,3000,1271,0
+  M,0,3000,3400,1271,30,240,30
+  M,0,3400,6400,240,30
+  M,0,6400,6600,240,30,1271,30
+ F,0,66148,,1
+ F,0,89117,,0
+Animation,Fail,TopLeft,"S3\ohno.png",0,0,4,400,LoopForever
+ L,96820,6
+  M,0,0,3000,0,70
+  M,0,3000,3400,0,70,-1080,70
+  M,0,3400,6400,-1080,111
+  M,0,6400,6600,-1080,70,0,70
+ F,0,96820,,1
+ F,0,133581,,0
+Animation,Fail,TopLeft,"S3\douche.png",0,0,4,1000,LoopForever
+ L,96820,6
+  M,0,0,3000,1171,20
+  M,0,3000,3400,1171,20,140,20
+  M,0,3400,6400,140,20
+  M,0,6400,6600,140,20,1171,20
+ F,0,96820,,1
+ F,0,133581,,0
+Animation,Fail,TopLeft,"S4\scn0_bg1.png",0,0,2,300,LoopForever
+ L,150300,6
+  F,0,0,3000,0
+  F,0,3400,,1
+  F,0,6400,6600,0
+ F,0,150300,,1
+ V,0,150300,,1,1
+ F,0,187153,,0
+Animation,Fail,TopLeft,"S4\ohshit.png",0,0,9,400,LoopForever
+ L,150300,6
+  M,0,0,3000,0,30
+  M,0,3000,3400,0,30,-1080,30
+  M,0,3400,6400,-1080,111
+  M,0,6400,6600,-1080,30,0,30
+ F,0,150300,,1
+ F,0,187153,,0
+Animation,Fail,TopLeft,"S4\ultimate.png",60,0,3,500,LoopForever
+ L,150300,6
+  F,0,0,3000,0
+  F,0,3400,,1
+  F,0,6400,6600,0
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Fail,TopLeft,"S2\grr0.png",0,30
+ L,150300,6
+  F,0,0,,1
+  M,0,0,3000,0,1271
+  M,0,3000,3400,1271,30,240,30
+  F,0,3400,6400,0
+  F,0,6400,,1
+  M,0,6400,6600,240,30,1271,30
+ F,0,150300,,1
+ F,0,187153,200000,0
+Sprite,Fail,TopLeft,"S1\umm4.png",0,70
+ F,0,55419,55804,1
+Animation,Fail,TopLeft,"S1\umm.png",0,70,9,400,LoopForever
+ F,0,55805,56966,1
+Sprite,Fail,TopLeft,"bg\judgeGlare.jpg",0,0
+ F,0,58515,,1
+ F,0,61611,,0
+ F,0,93803,,1
+ F,0,96096,,0
+Sprite,Fail,TopLeft,"bg\judgeGlare.jpg",0,0
+ F,0,144362,,1
+ F,0,147456,,0
+Sprite,Fail,Centre,"pathos\Lsmirk.png",320,267
+ F,0,61612,63091,1
+Sprite,Fail,TopLeft,"spr\defbench.png",0,363
+ F,0,52322,,0,1
+ F,0,56966,,1,0
+ F,0,89118,,0,1
+ F,0,91412,,1,0
+ F,0,92176,,0,1
+ F,0,93802,,1,0
+Sprite,Fail,Centre,"spr\scn2_txt3_f.png",420,310
+ F,0,55805,56966,1
+Sprite,Fail,Centre,"spr\scn2_txt4_f.png",320,340
+ L,58515,4
+  F,0,0,50,0
+  F,0,50,100,1
+ S,0,58515,,0.8
+ F,0,58915,60062,1
+Sprite,Fail,Centre,"spr\scn2_txt5_f.png",320,320
+ S,0,62012,,0.8
+ F,0,62012,63091,1
+Sprite,Fail,Centre,"white.png",320,240
+ F,0,55419,55514,1,0
+Sprite,Fail,Centre,"spr\scn3_txt4_f.png",400,320
+ F,0,92176,92941,1
+Sprite,Fail,Centre,"spr\scn3_txt5_f.png",450,290
+ S,0,92941,93037,1,1.2
+ F,0,92941,93802,1
+Sprite,Fail,Centre,"spr\scn3_txt6_f.png",320,320
+ F,0,93802,94662,1
+Sprite,Fail,TopLeft,"bg\courtroomfull.jpg",0,0
+ M,2,140893,141268,0,0,-540,0
+ M,1,141268,141641,-540,0,-1080,0
+ F,0,139768,142768,1
+Animation,Fail,TopLeft,"spr\chinrub.png",0,70,2,400,LoopForever
+ F,0,139768,141268,1
+ M,2,140893,141268,0,70,-540,70
+Sprite,Fail,BottomLeft,"spr\defbench.png",0,480
+ F,0,139768,141268,1
+ M,2,140893,141268,0,480,-540,480
+Sprite,Fail,TopLeft,"spr\scn4_txt4_f.png",170,270
+ F,0,139768,140893,1
+Animation,Fail,TopLeft,"S3\douche.png",0,0,4,1000,LoopForever
+ M,1,141268,141641,680,20,140,20
+ F,0,141268,142768,1
+Sprite,Fail,TopLeft,"spr\prosbench.png",0,480
+ M,1,141268,141641,540,363,0,363
+ F,0,141268,142768,1
+Sprite,Fail,Centre,"spr\scn4_txt5_f.png",200,340
+ F,0,141831,142768,1
+Sprite,Fail,TopLeft,"bg\scn1_bg2.jpg",0,0
+ F,0,142768,144362,1
+Sprite,Fail,Centre,"pathos\Lsmirk.png",320,267
+ F,0,142768,144362,1
+Sprite,Fail,Centre,"spr\witbench.png",320,422
+ F,0,142768,144362,1
+Sprite,Fail,Centre,"spr\scn4_txt6_f.png",320,322
+ F,0,143143,144362,1
+Sprite,Fail,Centre,"spr\scn4_txt7_f.png",320,322
+ F,0,144707,145956,1
+Sprite,Fail,BottomLeft,"spr\defbench.png",320,322
+ L,150300,6
+  M,0,0,3000,0,480
+  M,0,3000,3400,0,480,-1080,480
+  M,0,3400,6400,-1080,480
+  M,0,6400,6600,-1080,480,0,480
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Fail,TopLeft,"spr\prosbench.png",0,0
+ L,150300,6
+  M,0,0,3000,1080,363
+  M,0,3000,3400,1080,363,0,363
+  M,0,3400,6400,640,363
+  M,0,6400,6600,0,363,1080,363
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Fail,TopLeft,"cinemapanel.png",0,0
+ F,0,59962,,1
+ F,0,61610,,0
+ F,0,94562,,1
+ F,0,96096,,0
+ F,0,145856,,1
+ F,0,147456,,0
+ F,0,218204,,1
+ F,0,219351,,0
+Sprite,Fail,TopLeft,"cinemapanel.png",0,420
+ F,0,59962,,1
+ F,0,61610,,0
+ F,0,94562,,1
+ F,0,96096,,0
+ F,0,145856,,1
+ F,0,147456,,0
+ F,0,218204,,1
+ F,0,219351,,0
+Sprite,Fail,Centre,"spr\sectionfail.png",335,240
+ L,59962,3
+  F,0,0,100,0
+  F,0,100,200,1
+ L,94562,3
+  F,0,0,100,0
+  F,0,100,200,1
+ L,145856,3
+  F,0,0,100,0
+  F,0,100,200,1
+ S,0,60062,,0.6
+ F,0,61610,,0
+ F,0,96096,,0
+ F,0,147456,,0
+Sprite,Fail,TopLeft,"black.png",0,0
+ F,0,218204,219351,0,1
+ F,0,219351,,0
+Sprite,Fail,Centre,"blah.png",0,0
+ L,35317,2
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,200,-70,230
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,200,-70,230
+  F,0,6400,6600,0
+Sprite,Fail,Centre,"blah.png",0,0
+ L,36067,2
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,300,-70,350
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,300,-70,350
+  F,0,6400,6600,0
+Sprite,Fail,Centre,"what.png",0,0
+ L,150300,5
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,200,710,230
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,200,710,230
+  F,0,6400,6600,0
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Fail,Centre,"what.png",0,0
+ L,151050,5
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,300,710,350
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,300,710,350
+  F,0,6400,6600,0
+ F,0,151050,,1
+ F,0,187153,,0
+Sprite,Fail,Centre,"blah.png",0,0
+ L,150300,5
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,200,-70,230
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,200,-70,230
+  F,0,6400,6600,0
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Fail,Centre,"blah.png",0,0
+ L,151050,5
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,300,-70,350
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,300,-70,350
+  F,0,6400,6600,0
+ F,0,151050,,1
+ F,0,187153,,0
+Animation,Fail,TopLeft,"bg\scn1_bg0_.png",0,0,3,400,LoopForever
+ F,0,215147,217058,1
+//Storyboard Layer 2 (Pass)
+Sprite,Pass,TopLeft,"bg\scn1_bg0_1.png",0,0
+ F,0,215147,217058,1
+Animation,Pass,TopLeft,"S1\paper.png",0,0,8,400,LoopForever
+ L,35317,3
+  M,0,0,3000,0,30
+  M,0,3000,3400,0,30,-1080,30
+  M,0,3400,6400,-1080,30
+  M,0,6400,6600,-1080,30,0,30
+ F,0,35317,,1
+ F,0,52321,,0
+Animation,Pass,TopLeft,"S1\hmm.png",0,0,4,400,LoopForever
+ L,35317,3
+  M,0,0,3000,1311,0
+  M,0,3000,3400,1311,30,280,30
+  M,0,3400,6400,280,30
+  M,0,6400,6600,280,30,1311,30
+ F,0,35317,,1
+ F,0,52321,,0
+Animation,Pass,TopLeft,"S2\aha.png",0,0,6,400,LoopForever
+ L,66148,4
+  M,0,0,3000,0,30
+  M,0,3000,3400,0,30,-1080,30
+  M,0,3400,6400,-1080,111
+  M,0,6400,6600,-1080,30,0,30
+ F,0,66148,,1
+ F,0,89117,,0
+Animation,Pass,TopLeft,"S2\grr.png",0,0,4,400,LoopForever
+ L,66148,4
+  M,0,0,3000,0,1271
+  M,0,3000,3400,1271,30,240,30
+  M,0,3400,6400,240,30
+  M,0,6400,6600,240,30,1271,30
+ F,0,66148,,1
+ F,0,89117,,0
+Animation,Pass,TopLeft,"S3\obj.png",0,0,6,400,LoopForever
+ L,96820,6
+  M,0,0,3000,0,50
+  M,0,3000,3400,0,50,-1080,50
+  M,0,3400,6400,-1080,111
+  M,0,6400,6600,-1080,50,0,50
+ F,0,96820,,1
+ F,0,133581,,0
+Animation,Pass,TopLeft,"S3\ire.png",0,0,4,400,LoopForever
+ L,96820,6
+  M,0,0,3000,1171,130
+  M,0,3000,3400,1171,130,140,130
+  M,0,3400,6400,140,130
+  M,0,6400,6600,140,130,1171,130
+ F,0,96820,,1
+ F,0,133581,,0
+Animation,Pass,TopLeft,"S4\scn0_bg1.png",0,0,2,300,LoopForever
+ L,150300,6
+  F,0,0,,1
+  F,0,3000,6600,0
+ F,0,150300,,1
+ V,0,150300,,1,1
+ F,0,187153,,0
+Animation,Pass,TopLeft,"S4\extreme.png",0,0,3,400,LoopForever
+ L,150300,6
+  F,0,0,,1
+  F,0,3000,6600,0
+ F,0,150300,,1
+ F,0,187153,,0
+Animation,Pass,TopLeft,"S4\ohsnap.png",0,0,9,400,LoopForever
+ L,150300,6
+  M,0,0,3000,1109,60
+  M,0,3000,3400,1109,60,178,60
+  M,0,3400,6400,178,60
+  M,0,6400,6600,178,60,1109,60
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Pass,TopLeft,"S2\rar0.png",0,30
+ L,150300,6
+  F,0,1,,0
+  F,0,3000,,1
+  M,0,3000,3400,0,70,-1080,70
+  M,0,6400,6600,-1080,70,0,70
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Pass,BottomLeft,"spr\defbench.png",320,322
+ L,150300,6
+  M,0,0,3000,640,480
+  M,0,3000,3400,0,480,-1080,480
+  M,0,3400,6400,-1080,480
+  M,0,6400,6600,-1080,480,0,480
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Pass,TopLeft,"S2\rar0.png",10,80
+ M,1,55417,55610,10,80,-10,80
+ F,0,55417,55806,1
+Animation,Pass,TopLeft,"S3\obj.png",0,56,6,300,LoopForever
+ M,1,55805,55997,-20,56,0,56
+ F,0,55805,56966,1
+Sprite,Pass,TopLeft,"bg\judgeShock.jpg",0,0
+ F,0,58515,61611,1
+Sprite,Pass,Centre,"pathos\Lfrown.png",320,267
+ F,0,61612,63091,1
+Animation,Pass,TopLeft,"pathos\hubbub.png",0,0,3,800,LoopForever
+ F,0,93803,,0,1
+ F,0,94948,,1,0
+Sprite,Pass,TopLeft,"pathos\hubbub0.png",0,0
+ F,0,94949,96096,1
+Sprite,Pass,TopLeft,"spr\defbench.png",0,363
+ F,0,52322,,1
+ F,0,56966,,0
+ F,0,89118,,1
+ F,0,91412,,0
+ F,0,92176,,1
+ F,0,93802,,0
+Sprite,Pass,Centre,"spr\scn2_txt3_p.png",420,320
+ L,55805,3
+  F,0,0,50,0
+  F,0,50,100,1
+ F,0,56105,56966,1
+Sprite,Pass,Centre,"spr\scn2_txt4_p.png",320,340
+ L,58515,2
+  F,0,0,100,0
+  F,0,100,200,1
+ S,0,58515,,0.8
+ F,0,58901,60062,1
+Sprite,Pass,Centre,"spr\scn2_txt5_p.png",320,320
+ S,0,62012,,0.8
+ F,0,62012,63091,1
+Sprite,Pass,Centre,"spr\scn3_txt4_p.png",440,290
+ F,0,92176,92941,1
+Sprite,Pass,Centre,"spr\scn3_txt5_p.png",440,290
+ S,0,92941,93037,1,1.2
+ F,0,92941,93802,1
+Sprite,Pass,TopLeft,"bg\scn1_bg3.jpg",0,0
+ F,0,139768,,1
+ F,0,141268,,0
+ F,0,142768,,1
+ F,0,144362,,0
+Animation,Pass,TopLeft,"spr\chinrub.png",0,70,2,400,LoopForever
+ F,0,139768,141268,1
+Animation,Pass,TopLeft,"pathos\hubbub.png",0,0,3,400,LoopForever
+ F,0,141268,142768,1
+Animation,Pass,TopLeft,"S2\aha.png",0,60,6,400,LoopForever
+ F,0,142768,144362,1
+Sprite,Pass,BottomLeft,"spr\defbench.png",0,480
+ F,0,139768,,1
+ F,0,141268,,0
+ F,0,142768,,1
+ F,0,144362,,0
+Sprite,Pass,TopLeft,"bg\scn1_bg2.jpg",0,0
+ F,0,144362,147456,1
+Sprite,Pass,Centre,"pathos\Lfrown.png",320,267
+ F,0,144362,147456,1
+Sprite,Pass,Centre,"spr\witbench.png",320,422
+ F,0,144362,147456,1
+Sprite,Pass,TopLeft,"spr\scn4_txt4_p.png",180,260
+ F,0,139768,141268,1
+Sprite,Pass,TopLeft,"spr\scn4_txt5_p.png",280,200
+ F,0,142768,144362,1
+Sprite,Pass,Centre,"spr\scn4_txtdot.png",320,360
+ F,0,144737,145112,1
+Sprite,Pass,Centre,"spr\scn4_txtdotdot.png",320,360
+ F,0,145112,145487,1
+Sprite,Pass,Centre,"spr\scn4_txtdotdotdot.png",320,360
+ F,0,145487,145956,1
+Sprite,Pass,TopLeft,"spr\prosbench.png",0,0
+ L,150300,6
+  M,0,0,3000,1080,363
+  M,0,3000,3400,1080,363,0,363
+  M,0,3400,6400,0,363
+  M,0,6400,6600,0,363,1080,363
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Pass,TopLeft,"cinemapanel.png",0,0
+ F,0,59962,,1
+ F,0,61610,,0
+ F,0,94562,,1
+ F,0,96096,,0
+ F,0,145856,,1
+ F,0,147456,,0
+ F,0,218204,,1
+ F,0,219351,,0
+Sprite,Pass,TopLeft,"cinemapanel.png",0,420
+ F,0,59962,,1
+ F,0,61610,,0
+ F,0,94562,,1
+ F,0,96096,,0
+ F,0,145856,,1
+ F,0,147456,,0
+ F,0,218204,,1
+ F,0,219351,,0
+Sprite,Pass,Centre,"spr\sectionpass.png",316,240
+ L,59962,3
+  F,0,0,100,0
+  F,0,100,200,1
+ L,94562,3
+  F,0,0,100,0
+  F,0,100,200,1
+ L,145856,3
+  F,0,0,100,0
+  F,0,100,200,1
+ S,0,60062,,0.6
+ F,0,61610,,0
+ F,0,96096,,0
+ F,0,147456,,0
+Sprite,Pass,TopLeft,"bg\corny.png",0,0
+ F,0,219351,232026,1
+Sprite,Pass,TopLeft,"white.png",0,0
+ F,0,218204,219351,0,1
+ F,0,219351,219733,1,0
+Sprite,Pass,Centre,"blah.png",0,0
+ L,66148,3
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,200,-70,230
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,200,-70,230
+  F,0,6400,6600,0
+Sprite,Pass,Centre,"blah.png",0,0
+ L,66898,3
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,300,-70,350
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,300,-70,350
+  F,0,6400,6600,0
+Sprite,Pass,Centre,"blah.png",0,0
+ L,150300,5
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,200,710,230
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,200,710,230
+  F,0,6400,6600,0
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Pass,Centre,"blah.png",0,0
+ L,151050,5
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,300,710,350
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,300,710,350
+  F,0,6400,6600,0
+ F,0,151050,,1
+ F,0,187153,,0
+Sprite,Pass,Centre,"what.png",0,0
+ L,150300,5
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,200,-70,230
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,200,-70,230
+  F,0,6400,6600,0
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Pass,Centre,"what.png",0,0
+ L,151050,5
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,300,-70,350
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,300,-70,350
+  F,0,6400,6600,0
+ F,0,151050,,1
+ F,0,187153,,0
+Sprite,Pass,TopLeft,"spr\yaaaay.png",0,0
+ M,0,215147,215929,0,60,30,240
+ F,0,215147,216711,1
+ M,0,215929,216711,30,240,0,420
+Sprite,Pass,TopLeft,"spr\yaaaay.png",0,0
+ M,0,215147,215929,160,60,140,240
+ F,0,215147,216711,1
+ M,0,215929,216711,140,240,160,420
+Sprite,Pass,TopLeft,"spr\yaaaay.png",0,0
+ M,0,215147,215929,320,60,300,240
+ F,0,215147,216711,1
+ M,0,215929,216711,300,240,320,420
+Sprite,Pass,TopLeft,"spr\yaaaay.png",0,0
+ M,0,215147,215929,480,60,510,240
+ F,0,215147,216711,1
+ M,0,215929,216711,510,240,480,420
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,BottomLeft,"spr\scn0_spr1_11.png",0,420
+ F,0,0,576,1
+Animation,Foreground,BottomLeft,"spr\scn0_spr1_1.png",0,420,2,300,LoopForever
+ M,0,576,3382,0,420,-348,420
+ F,0,576,3382,1
+Sprite,Foreground,TopLeft,"spr\defbench.png",0,0
+ L,35317,3
+  M,0,0,3000,0,363
+  M,0,3000,3400,0,363,-1080,363
+  M,0,3400,6400,-1080,363
+  M,0,6400,6600,-1080,363,0,363
+ L,66148,4
+  M,0,0,3000,0,363
+  M,0,3000,3400,0,363,-1080,363
+  M,0,3400,6400,-1080,363
+  M,0,6400,6600,-1080,363,0,363
+ L,96820,6
+  M,0,0,3000,0,363
+  M,0,3000,3400,0,363,-1080,363
+  M,0,3400,6400,-1080,363
+  M,0,6400,6600,-1080,363,0,363
+ F,0,35317,,1
+ F,0,52321,,0
+ F,0,66147,,1
+ F,0,89117,,0
+ F,0,96819,,1
+ F,0,133581,,0
+Sprite,Foreground,TopLeft,"spr\prosbench.png",0,0
+ L,35317,3
+  M,0,0,3000,1080,363
+  M,0,3000,3400,1080,363,0,363
+  M,0,3400,6400,0,363
+  M,0,6400,6600,0,363,1080,363
+ L,66148,4
+  M,0,0,3000,1080,363
+  M,0,3000,3400,1080,363,0,363
+  M,0,3400,6400,0,363
+  M,0,6400,6600,0,363,1080,363
+ L,96820,6
+  M,0,0,3000,1080,363
+  M,0,3000,3400,1080,363,0,363
+  M,0,3400,6400,0,363
+  M,0,6400,6600,0,363,1080,363
+ F,0,35317,,1
+ F,0,52321,,0
+ F,0,66147,,1
+ F,0,89117,,0
+ F,0,96819,,1
+ F,0,133581,,0
+Sprite,Foreground,Centre,"spr\magazine.png",520,100
+ M,0,89118,89318,220,250,520,140
+ S,0,89118,89318,0,1
+ F,0,89118,91412,1
+Sprite,Foreground,Centre,"spr\pen.png",520,100
+ M,0,53095,53192,220,250,520,140
+ S,0,53095,53192,0,1
+ F,0,53869,55417,1
+Sprite,Foreground,Centre,"spr\brokencamera.png",520,100
+ M,0,134331,134518,220,250,520,140
+ S,0,134331,134518,0,1
+ F,0,134331,135456,1
+Sprite,Foreground,Centre,"pathos\Lsmirk.png",320,267
+ F,0,91412,92176,1
+Sprite,Foreground,Centre,"spr\witbench.png",320,422
+ F,0,61612,,0,1
+ F,0,63091,,1,0
+ F,0,91412,,0,1
+ F,0,92176,,1,0
+Sprite,Foreground,Centre,"spr\scn2_txt1.png",420,320
+ S,0,52322,,0.6
+ F,0,52322,53839,1
+Sprite,Foreground,Centre,"spr\scn2_txt2.png",420,320
+ S,0,53840,,0.8
+ F,0,53840,55418,1
+Sprite,Foreground,BottomCentre,"spr\scn3_txt1.png",400,400
+ F,0,89117,90264,1
+Sprite,Foreground,BottomCentre,"spr\scn3_txt2.png",400,390
+ F,0,90264,91412,1
+Sprite,Foreground,BottomCentre,"spr\scn3_txt3.png",320,420
+ F,0,91412,92176,1
+Sprite,Foreground,Centre,"spr\scn4_txt1.png",400,340
+ F,0,133956,135456,1
+Sprite,Foreground,Centre,"spr\scn4_txt2.png",240,340
+ F,0,136206,138268,1
+Sprite,Foreground,BottomCentre,"spr\scn4_txtdotdotdot.png",320,420
+ F,0,191453,192408,1
+Sprite,Foreground,Centre,"spr\microphone.png",520,100
+ M,0,191070,191262,640,250,520,140
+ S,0,191070,191262,0,1
+ F,0,191070,192408,1
+Sprite,Foreground,Centre,"spr\holdit.png",320,240
+ L,187822,3
+  M,0,0,20,315,235,315,245
+  M,0,20,40,315,245,325,245
+  M,0,40,60,325,245,325,235
+  M,0,60,80,325,235,315,235
+ F,0,187822,189160,1
+Animation,Foreground,TopLeft,"S1\hmm.png",280,30,4,400,LoopForever
+ F,0,195465,196039,1
+Animation,Foreground,TopLeft,"S1\blah.png",280,30,5,400,LoopForever
+ F,0,196039,197758,1
+ M,2,197376,197758,280,30,830,30
+Animation,Foreground,TopLeft,"S2\rar.png",0,0,4,400,LoopForever
+ M,1,197758,198141,-540,70,0,70
+ F,0,197758,199860,1
+Sprite,Foreground,BottomCentre,"spr\defbench.png",320,480
+ F,0,192408,,1
+ F,0,193746,,0
+ F,0,195465,,1
+ P,0,195465,197758,H
+ M,2,197376,197758,320,480,860,480
+ M,1,197758,198141,-220,480,320,480
+ F,0,199860,,0
+Sprite,Foreground,Centre,"spr\scn5_txt2.png",320,360
+ F,0,189924,191070,1
+Sprite,Foreground,BottomCentre,"spr\scn5_txt3.png",320,420
+ F,0,192790,193746,1
+Sprite,Foreground,TopCentre,"spr\scn5_txt4.png",320,60
+ F,0,193937,195465,1
+Sprite,Foreground,BottomLeft,"spr\scn5_txt5.png",0,420
+ F,0,196039,197376,1
+Sprite,Foreground,BottomLeft,"spr\scn5_txt6.png",211,420
+ F,0,198141,199860,1
+Sprite,Foreground,BottomCentre,"spr\scn5_txtB.png",320,420
+ F,0,208386,209797,1
+Sprite,Foreground,BottomCentre,"spr\scn5_txtC.png",320,420
+ F,0,209797,211707,1
+Sprite,Foreground,BottomCentre,"spr\scn5_txtA.png",320,420
+ F,0,205975,207886,1
+Sprite,Foreground,BottomCentre,"spr\scn5_txtD.png",320,420
+ F,0,211707,212854,1
+Sprite,Foreground,BottomCentre,"spr\scn5_txt8.png",320,420
+ F,0,202153,203491,1
+Sprite,Foreground,TopCentre,"spr\scn5_txt9.png",320,60
+ F,0,203491,205975,1
+Sprite,Foreground,TopCentre,"spr\whiteslab.png",320,133
+ F,0,203491,204828,1
+Sprite,Foreground,Centre,"spr\takethat.png",320,240
+ T,Passing,150268,182663
+  F,0,0,,1
+  M,0,0,20,315,235,315,245
+  M,0,20,40,315,245,325,245
+  M,0,40,60,325,245,325,235
+  M,0,60,80,325,235,315,235
+  M,0,80,100,315,235,315,245
+  M,0,100,120,315,245,325,245
+  M,0,120,140,325,245,325,235
+  M,0,140,160,325,235,315,235
+  M,0,160,180,315,235,315,245
+  M,0,180,200,315,245,325,245
+  M,0,200,220,325,245,325,235
+  M,0,220,240,325,235,315,235
+  F,0,700,,0
+Sprite,Foreground,Centre,"spr\objection.png",320,240
+ T,Failing,150268,182663
+  F,0,0,,1
+  M,0,0,20,315,235,315,245
+  M,0,20,40,315,245,325,245
+  M,0,40,60,325,245,325,235
+  M,0,60,80,325,235,315,235
+  M,0,80,100,315,235,315,245
+  M,0,100,120,315,245,325,245
+  M,0,120,140,325,245,325,235
+  M,0,140,160,325,235,315,235
+  M,0,160,180,315,235,315,245
+  M,0,180,200,315,245,325,245
+  M,0,200,220,325,245,325,235
+  M,0,220,240,325,235,315,235
+  F,0,700,,0
+Animation,Foreground,TopLeft,"bg\star.png",0,0,4,450,LoopForever
+ F,0,32166,,1
+ F,0,34543,,0
+ F,0,63092,,1
+ F,0,66148,,0
+ F,0,96096,,1
+ F,0,96861,,0
+Animation,Foreground,TopLeft,"bg\star.png",0,0,4,400,LoopForever
+ F,0,147456,,1
+ F,0,150300,,0
+Animation,Foreground,Centre,"spr\pw-wave.png",320,240,6,450,LoopForever
+ F,0,32166,,1
+ F,0,34543,,0
+Animation,Foreground,Centre,"spr\pw-wave.png",480,240,6,430,LoopForever
+ F,0,63092,,1
+ F,0,66148,,0
+Animation,Foreground,Centre,"spr\maya-wave.png",160,660,6,430,LoopForever
+ F,0,63092,,1
+ M,0,63664,63855,160,660,160,320
+ F,0,66148,,0
+Animation,Foreground,Centre,"spr\pw-wave.png",480,240,6,430,LoopForever
+ F,0,96096,,1
+ F,0,96861,,0
+Animation,Foreground,Centre,"spr\maya-wave.png",160,320,6,430,LoopForever
+ F,0,96096,,1
+ F,0,96861,,0
+Animation,Foreground,Centre,"spr\badgewave.png",480,320,6,430,LoopForever
+ F,0,147456,,1
+ M,0,148018,148206,520,680,520,240
+ F,0,150300,,0
+Animation,Foreground,Centre,"spr\pw-wave.png",320,240,6,400,LoopForever
+ F,0,147456,,1
+ F,0,150300,,0
+Animation,Foreground,Centre,"spr\maya-wave.png",120,320,6,430,LoopForever
+ F,0,147456,,1
+ F,0,150300,,0
+Sprite,Foreground,Centre,"spr\star.png",0,0
+ M,0,31640,32221,320,640,320,240
+ F,0,32221,32608,1,0
+ S,0,32221,32608,1,2
+ R,0,32221,32608,0,4
+Sprite,Foreground,Centre,"spr\woooh.png",0,0
+ L,33382,6
+  M,0,0,50,315,235,325,235
+  M,0,50,100,325,235,325,245
+  M,0,100,150,325,245,315,245
+  M,0,150,200,315,245,315,235
+ F,0,33382,34543,1
+ S,0,33382,34543,0.3,1.5
+Sprite,Foreground,Centre,"blah.png",0,0
+ L,35317,3
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,200,710,230
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,200,710,230
+  F,0,6400,6600,0
+ L,66148,4
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,200,710,230
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,200,710,230
+  F,0,6400,6600,0
+ L,96820,6
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,200,710,230
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,200,710,230
+  F,0,6400,6600,0
+ F,0,35317,,1
+ F,0,52321,,0
+ F,0,66147,,1
+ F,0,89117,,0
+ F,0,96819,,1
+ F,0,133581,,0
+Sprite,Foreground,Centre,"blah.png",0,0
+ L,36067,3
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,300,710,350
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,300,710,350
+  F,0,6400,6600,0
+ L,66898,4
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,300,710,350
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,300,710,350
+  F,0,6400,6600,0
+ L,97570,6
+  F,0,0,,0
+  F,0,0,1100,1,0
+  M,1,0,1200,310,300,710,350
+  F,0,1500,2600,1,0
+  M,1,1500,2700,310,300,710,350
+  F,0,6400,6600,0
+ F,0,36067,,1
+ F,0,52321,,0
+ F,0,66898,,1
+ F,0,89117,,0
+ F,0,97570,,1
+ F,0,133581,,0
+Sprite,Foreground,Centre,"blah.png",0,0
+ L,97570,5
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,300,-70,350
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,300,-70,350
+  F,0,6400,6600,0
+Sprite,Foreground,Centre,"blah.png",0,0
+ L,96820,5
+  F,0,0,3400,0
+  F,0,3400,4500,1,0
+  M,0,3400,4600,330,200,-70,230
+  F,0,4900,6000,1,0
+  M,0,4900,6100,330,200,-70,230
+  F,0,6400,6600,0
+Sprite,Foreground,TopLeft,"blahblahblahblah.png",0,200
+ L,35317,3
+  M,0,0,2600,640,300
+  M,0,2600,3800,640,300,-679,300
+  M,0,3400,5600,-679,300
+  M,0,5600,6600,-679,300,640,300
+ F,0,35317,,1
+ F,0,52321,,0
+Sprite,Foreground,TopLeft,"blahblahclearlyblah.png",0,200
+ L,66147,4
+  M,0,0,2600,640,300
+  M,0,2600,3800,640,300,-679,300
+  M,0,3400,5600,-679,300
+  M,0,5600,6600,-679,300,640,300
+ F,0,66147,,1
+ F,0,89117,,0
+Sprite,Foreground,TopLeft,"contradictionsblah.png",0,200
+ L,96819,6
+  M,0,0,2600,640,300
+  M,0,2600,3800,640,300,-679,300
+  M,0,3400,5600,-679,300
+  M,0,5600,6600,-679,300,640,300
+ L,150300,6
+  M,0,0,2600,640,300
+  M,0,2600,3800,640,300,-679,300
+  M,0,3400,5600,-679,300
+  M,0,5600,6600,-679,300,640,300
+ F,0,96819,,1
+ F,0,133581,,0
+ F,0,150300,,1
+ F,0,187153,,0
+Sprite,Foreground,TopLeft,"boottothehead.png",0,200
+ M,0,132924,133581,640,300,0,300
+Sprite,Foreground,Centre,"intro\page1b.png",220,140
+ L,-43300,2
+  S,0,0,100,2.4,2.5
+  S,0,100,200,2.5,2.4
+ F,0,-35000,,1
+Sprite,Foreground,TopLeft,"intro\page1d.png",300,150
+ S,0,-41500,-35000,2.5
+Sprite,Foreground,TopLeft,"intro\page1e.png",450,50
+ S,0,-41000,-35000,2.5
+Sprite,Foreground,TopLeft,"intro\page1g.png",0,250
+ S,0,-39500,-35000,2.5
+Sprite,Foreground,BottomLeft,"intro\page1h.png",288,460
+ S,0,-37000,-35000,2.5
+Sprite,Foreground,TopLeft,"intro\page2b.png",268,180
+ S,0,-33500,-23000,2.5
+Sprite,Foreground,TopLeft,"intro\page2d.png",0,240
+ S,0,-29000,-23000,2.5
+Sprite,Foreground,TopLeft,"intro\page2f.png",300,260
+ S,0,-26000,-23000,2.5
+Sprite,Foreground,TopLeft,"intro\page3c.png",150,300
+ S,0,-19000,-15000,2.5
+Sprite,Foreground,TopLeft,"intro\page3e.png",400,270
+ L,-17000,2
+  M,0,0,500,400,270,400,250
+  M,0,500,1000,400,250,400,270
+ S,0,-17000,-15000,2.5
+Sprite,Foreground,TopLeft,"intro\page4b.png",165,17
+ S,0,-14000,-11000,2.5
+Sprite,Foreground,TopLeft,"intro\page4c.png",165,17
+ S,0,-11000,-9000,2.5
+Sprite,Foreground,TopLeft,"intro\page4d.png",165,17
+ S,0,-9000,-1000,2.5
+Sprite,Foreground,TopLeft,"intro\page4g.png",300,300
+ S,0,-4000,-1000,2.5
+Sprite,Foreground,TopLeft,"black.png",0,0
+ F,0,-2500,-1000,0,1
+ F,0,0,,1
+Sprite,Foreground,TopLeft,"white.png",0,0
+ F,0,118342,118726,1,0
+ F,0,189160,189351,1,0
+ F,0,192408,192599,1,0
+ F,0,192790,192981,1,0
+Sprite,Foreground,TopLeft,"black.png",0,0
+ F,0,195083,195465,0,1
+ F,0,195465,195848,1,0
+ F,0,205593,205975,0,1
+ F,0,205975,206357,1,0
+Sprite,Foreground,TopLeft,"cinemapanel.png",0,0
+ F,0,20414,,1
+ F,0,34930,,0
+ F,0,52321,,1
+ F,0,59962,,0
+ F,0,61610,,1
+ F,0,66147,,0
+ F,0,89117,,1
+ F,0,94562,,0
+ F,0,96096,,1
+ F,0,96820,,0
+ F,0,133581,,1
+ F,0,145856,,0
+ F,0,147456,,1
+ F,0,150300,,0
+ F,0,187153,,1
+ F,0,218204,,0
+Sprite,Foreground,TopLeft,"cinemapanel.png",0,420
+ F,0,20414,,1
+ F,0,34930,,0
+ F,0,52321,,1
+ F,0,59962,,0
+ F,0,61610,,1
+ F,0,66147,,0
+ F,0,89117,,1
+ F,0,94562,,0
+ F,0,96096,,1
+ F,0,96820,,0
+ F,0,133581,,1
+ F,0,145856,,0
+ F,0,147456,,1
+ F,0,150300,,0
+ F,0,187153,,1
+ F,0,218204,,0
+Animation,Foreground,TopLeft,"spr\play-skip.png",525,410,3,1000,LoopForever
+ S,0,-44000,,0.8
+ F,0,-44000,,1
+ F,0,-1000,,0
+ F,0,0,,1
+ F,0,29900,,0
+Sprite,Foreground,TopLeft,"black.png",0,0
+ F,0,221262,222026,0,0.5
+ F,0,222026,232026,0.5
+Sprite,Foreground,TopLeft,"spr\credits.png",0,0
+ F,0,221837,222026,0,1
+ F,0,222026,232026,1
+Sprite,Foreground,TopLeft,"black.png",0,0
+ F,0,231026,232026,0,1
+Sprite,Foreground,TopLeft,"spr\count3.png",0,0
+ S,0,33769,,0.63
+ F,0,33769,34930,1
+Sprite,Foreground,TopLeft,"spr\count2.png",396,0
+ S,0,34156,,0.63
+ F,0,34156,34930,1
+Sprite,Foreground,Centre,"spr\count1.png",320,240
+ S,0,34543,,0.63
+ F,0,34543,34930,1
+//Storyboard Sound Samples
+Sample,-7000,0,"sfx\ebacentral.wav",100
+Sample,-44000,0,"sfx\Intro.mp3",100
+Sample,-43300,0,"sfx\gavel.wav",100
+Sample,-43000,0,"sfx\gavel.wav",100
+Sample,-42000,0,"sfx\gallery1.wav",100
+Sample,-41500,0,"sfx\shout.wav",100
+Sample,-41000,0,"sfx\shout.wav",100
+Sample,-39500,0,"sfx\clue.wav",100
+Sample,-37000,0,"sfx\name.wav",100
+Sample,-35000,0,"sfx\shout.wav",100
+Sample,-33500,0,"sfx\name.wav",100
+Sample,-29000,0,"sfx\yell.wav",100
+Sample,-26000,0,"sfx\shout.wav",100
+Sample,-23000,0,"sfx\finalblow.wav",100
+Sample,-19000,0,"sfx\yell.wav",100
+Sample,-17000,0,"sfx\gallery5.wav",100
+Sample,-14000,0,"sfx\clue.wav",100
+Sample,-11000,0,"sfx\shout.wav",100
+Sample,-9000,0,"sfx\yell.wav",100
+Sample,-4000,0,"sfx\star.wav",100
+Sample,-4000,0,"sfx\shout.wav",100
+Sample,-700,0,"sfx\menuhit.wav",100
+Sample,576,0,"sfx\vroom.wav",35
+Sample,4543,0,"sfx\shooom.wav",50
+Sample,11898,0,"sfx\brakes.wav",60
+Sample,13543,0,"sfx\shooom.wav",50
+Sample,15963,0,"sfx\arrival.wav",70
+Sample,16156,0,"sfx\land.wav",75
+Sample,16447,0,"sfx\land.wav",75
+Sample,16737,0,"sfx\land.wav",75
+Sample,17384,0,"sfx\hey.wav",55
+Sample,18672,0,"sfx\mission.wav",70
+Sample,20414,0,"sfx\gallery1.wav",60
+Sample,22727,0,"sfx\gavel.wav",90
+Sample,31834,0,"sfx\star.wav",30
+Sample,32900,0,"sfx\readymix.wav",50
+Sample,33771,0,"sfx\cd_3.wav",50
+Sample,33771,0,"sfx\mov_3f.wav",60
+Sample,34158,0,"sfx\cd_2.wav",50
+Sample,34158,0,"sfx\mov_2f.wav",60
+Sample,34545,0,"sfx\cd_1.wav",50
+Sample,34545,0,"sfx\mov_1f.wav",60
+Sample,34932,0,"sfx\mov_gof.wav",60
+Sample,34932,0,"sfx\cd_go.wav",50
+Sample,53191,0,"sfx\evidence.wav",70
+Sample,55901,1,"sfx\doing.wav",100
+Sample,55901,2,"sfx\yell.wav",85
+Sample,57062,0,"sfx\gallery2.wav",70
+Sample,58610,2,"sfx\shout.wav",85
+Sample,58610,1,"sfx\yell.wav",85
+Sample,60062,2,"sfx\sectionpass.wav",100
+Sample,60062,1,"sfx\sectionfail.wav",100
+Sample,89308,0,"sfx\evidence.wav",70
+Sample,92941,0,"sfx\yell.wav",85
+Sample,93802,1,"sfx\flimsy.wav",60
+Sample,93897,2,"sfx\gallery3.wav",70
+Sample,94662,2,"sfx\sectionpass.wav",100
+Sample,94662,1,"sfx\sectionfail.wav",100
+Sample,134518,0,"sfx\evidence.wav",100
+Sample,139768,0,"sfx\clue.wav",70
+Sample,141268,2,"sfx\gallery4.wav",70
+Sample,142768,2,"sfx\yell.wav",85
+Sample,144707,1,"sfx\rebuke.wav",100
+Sample,94662,2,"sfx\sectionpass.wav",100
+Sample,94662,1,"sfx\sectionfail.wav",100
+Sample,145956,2,"sfx\sectionpass.wav",100
+Sample,145956,1,"sfx\sectionfail.wav",100
+Sample,187822,0,"sfx\holdit.wav",100
+Sample,189255,0,"sfx\bigdamnhero.wav",100
+Sample,191262,0,"sfx\evidence.wav",70
+Sample,192410,0,"sfx\shock.wav",100
+Sample,192792,0,"sfx\shout.wav",100
+Sample,193748,0,"sfx\gallery3.wav",100
+Sample,193939,0,"sfx\yell.wav",100
+Sample,194414,0,"sfx\gavel.wav",100
+Sample,194797,0,"sfx\gavel.wav",100
+Sample,195179,0,"sfx\gavel.wav",70
+Sample,198143,0,"sfx\clue.wav",100
+Sample,199862,0,"sfx\finalblow.wav",100
+Sample,209875,0,"sfx\shout.wav",100
+Sample,211791,0,"sfx\shooom.wav",100
+Sample,213154,0,"sfx\verdict1.wav",100
+Sample,213918,0,"sfx\verdict2.wav",100
+Sample,215149,2,"sfx\gallerycheer.wav",20
+Sample,215149,1,"sfx\gallery3.wav",100
+Sample,217133,0,"sfx\gavel.wav",100
+Sample,219351,2,"sfx\sparkle.wav",100
+Sample,219351,2,"sfx\dsmn-outromidi.mp3",100

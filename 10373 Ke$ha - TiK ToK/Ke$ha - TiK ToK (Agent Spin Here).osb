@@ -1,0 +1,613 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"bgw.png",320,240
+ F,0,-16,199705,1
+ F,0,199705,201580,1
+ S,0,203580,,1
+ F,0,201580,205080,1
+ F,0,205080,205330,1,0
+Sprite,Background,Centre,"awesome-base.png",320,240
+ M,0,160080,190580,376,260
+ S,0,197080,,1.3
+Animation,Background,Centre,"corridor.png",320,240,2,500,LoopForever
+ F,0,79080,79330,0,1
+ S,0,128580,,0.8
+Sprite,Background,Centre,"peppy's PC.png",320,240
+ S,0,128580,132580,0.80544
+Sprite,Background,Centre,"peppyland.png",320,240
+ F,0,132580,,1
+ S,0,132580,136580,0.8054399
+Sprite,Background,Centre,"sky.PNG",320,240
+ M,0,15767,,320,240
+ S,0,15767,,4.59424
+ F,0,66267,66580,1,0
+Sprite,Background,Centre,"space.png",320,240
+ S,0,144080,160080,5
+Sprite,Background,Centre,"earth.png",320,240
+ S,0,144080,,1.64512
+ M,0,144080,160017,329,475,327,539
+ M,0,160017,160080,327,539,327,538
+Sprite,Background,Centre,"gabeland.png",320,240
+ S,0,158580,,1.09216
+ M,2,158580,160080,302,-220,301,59
+Sprite,Background,Centre,"star.png",320,240
+ M,0,144080,160080,153,186,153,228
+Sprite,Background,Centre,"star.png",320,240
+ M,0,144080,160080,453,220,453,259
+Animation,Background,Centre,"lazor.png",320,240,2,500,LoopForever
+ M,0,196580,,544,335
+ V,0,196580,,0.1807993,1.6656
+ R,0,196580,197080,1.536
+Sprite,Background,Centre,"gladizombie.png",320,240
+ M,0,201580,,144,275
+ S,0,201580,,1
+ F,0,201580,201830,0,1
+ F,0,201830,203080,1,0.992
+ F,0,203080,203330,0.992,0
+Sprite,Background,Centre,"remmyzombie.png",320,240
+ M,0,201580,,501,287
+ F,0,201580,201830,0,1
+ F,0,201830,203080,1
+ F,0,203080,203330,1,0
+//Storyboard Layer 1 (Fail)
+Animation,Fail,Centre,"jar-oshi.png",320,310,2,500,LoopForever
+ MX,0,16580,64580,366,471
+Sprite,Fail,Centre,"stragerzombie.png",180,240
+ L,16580,60
+  R,0,0,400,0,0.3
+  MY,0,0,400,140,150
+  R,0,400,800,0.3,0
+  MY,0,400,800,150,140
+Sprite,Fail,Centre,"wojjanzombie.png",180,240
+ L,16580,60
+  MY,0,0,400,350,340
+  MY,0,400,800,340,350
+ R,0,62080,,1.5
+Animation,Fail,Centre,"woosh.png",-12,140,2,500,LoopForever
+ R,0,16580,64580,1.5
+Animation,Fail,Centre,"woosh.png",-12,340,2,500,LoopForever
+ R,0,16580,64580,1.5
+Sprite,Fail,Centre,"jar.png",216,220
+ R,0,64580,66330,1.5
+Sprite,Fail,Centre,"like a pro.png",332,360
+ R,0,64830,,0.35
+ F,0,64830,65080,0,1
+ F,0,66080,66330,1,0
+Sprite,Fail,Centre,"peppyhouse.png",320,240
+ MX,0,66080,66830,900,320
+ S,0,66080,68580,1.43008
+Sprite,Fail,Centre,"UNFUNNY.png",320,240
+ F,0,66830,67080,0,1
+ R,0,68580,,-0.4
+Sprite,Fail,Centre,"fail.png",320,240
+ F,0,67330,67392,0,1
+ F,0,67392,67455,1,0
+ F,0,67455,67517,0,1
+ S,0,68580,,0.7
+Sprite,Fail,Centre,"jar-xOx.png",320,240
+ R,0,66330,,1.454081
+ M,0,66330,66830,217,216,-156,236
+ M,0,66830,66955,-156,236,-190,241
+Animation,Fail,Centre,"firefoxzombie.png",320,240,2,500,LoopForever
+ S,0,79830,,0.8464001
+ M,0,79830,80580,-330,290,207,259
+ M,0,128580,,207,310
+Animation,Fail,Centre,"larto-oshi.png",320,300,2,500,LoopForever
+ MX,0,79830,80580,-100,520
+ P,0,79830,128580,H
+Sprite,Fail,Centre,"lol.png",320,240
+ M,0,134330,,327,311
+ S,0,134330,,0.5904001
+ R,0,134330,,0.2457602
+ F,0,134330,134580,0,1
+ F,0,134580,136580,1,0.952
+Sprite,Fail,Centre,"get me out of here.png",320,240
+ M,0,134705,,359,388
+ R,0,134705,,-0.3276798
+ F,0,134705,134955,0,1
+ F,0,134955,136580,1,0.936
+Sprite,Fail,Centre,"youexpectedit.png",320,240
+ S,0,133830,,0.6928002
+ R,0,133830,,-0.16384
+ F,0,133830,134080,0,1
+ F,0,134080,136580,1
+Sprite,Fail,Centre,"larto-raeg.png",320,240
+ S,0,134830,,0.2115199
+ M,0,134830,136580,268,174
+Sprite,Fail,Centre,"larto.png",320,240
+ F,0,133330,133580,0,1
+ S,0,133330,133580,0.1,0.2126401
+ M,0,133580,,267,174
+ P,0,134080,134580,H
+ F,0,133580,134830,1
+Sprite,Fail,Centre,"fail.png",320,240
+ S,0,135330,,0.7440001
+ F,0,135330,135392,0,1
+ F,0,135392,135455,1,0
+ F,0,135455,135517,0,1
+ F,0,135517,136580,1
+Sprite,Fail,Centre,"larto-scared1.png",320,240
+ M,0,144080,144580,303,606,309,302
+ R,0,144080,160080,0,200
+Sprite,Fail,Centre,"turd-21.png",320,240
+ M,0,197580,,328,292
+ F,0,197580,197830,0.43168,1
+ F,0,197830,198080,1,0.9931802
+ F,0,198080,198330,0.9931802,0
+Animation,Fail,Centre,"woosh.png",320,240,2,500,LoopForever
+ M,0,197580,,321,180
+ F,0,197580,198080,0.5852799
+ F,0,198080,198330,0.5852799,0
+Animation,Fail,Centre,"larto-scared.png",320,240,2,500,LoopForever
+ F,0,198830,199080,0,1
+ F,0,199080,199830,1
+ F,0,199830,200080,1,0
+Sprite,Fail,Centre,"gone.png",320,240
+ M,0,199080,,321,312
+ F,0,199080,199330,0,1
+ F,0,199330,199830,1,0.988
+ F,0,199830,200080,0.988,0
+Sprite,Fail,Centre,"notinthemood.png",320,140
+ L,144580,155
+  MY,0,0,50,140,150
+  MY,0,50,100,150,140
+Sprite,Fail,Centre,"dead.png",320,240
+ S,0,203580,,0.83616
+ F,0,203580,203830,0,1
+ F,0,203830,205080,1
+ F,0,205080,205330,1,0
+Animation,Fail,Centre,"31gabe-lazor.png",320,240,2,500,LoopForever
+ F,0,164580,,1
+ S,0,164580,,0.8464001
+ M,0,164580,188580,322,316
+ R,0,188580,,-0.04096039
+//Storyboard Layer 2 (Pass)
+Sprite,Pass,Centre,"meatrodzombie.png",320,400
+ L,16598,60
+  MX,0,0,500,800,-160
+  R,0,800,,-1.5
+Sprite,Pass,Centre,"lesjuhzombie.png",320,50
+ L,16880,60
+  MX,0,0,500,800,-160
+  R,0,800,,-1.5
+Sprite,Pass,Centre,"cloud.png",320,300
+ L,16880,119
+  S,0,0,,0.5
+  MX,0,0,400,800,-160
+Sprite,Pass,Centre,"cloud.png",320,100
+ L,16880,79
+  S,0,0,,0.7
+  MX,0,0,600,800,-160
+Animation,Pass,Centre,"woosh.png",0,240,2,500,LoopForever
+ R,0,16580,,1.5
+Sprite,Pass,Centre,"jar.png",320,240
+ L,16580,60
+  MY,0,0,200,220,110
+  MY,0,200,400,110,220
+  MY,0,400,600,220,330
+  MY,0,600,800,330,220
+ MX,2,15830,16580,-170,220
+ R,0,66330,66700,1.5,0
+ MY,0,68580,,220
+Sprite,Pass,Centre,"peppyhouse.png",320,225
+ MX,0,66330,66580,863,536
+ F,0,68580,,1
+Sprite,Pass,Centre,"helpus.png",320,240
+ R,0,66705,,-0.3
+ F,0,66705,66955,0,1
+ S,0,66955,68580,0.8
+Sprite,Pass,Centre,"pass.png",320,240
+ F,0,67330,67392,0,1
+ F,0,67392,67455,1,0
+ F,0,67455,67517,0,1
+ S,0,68580,,0.7
+Sprite,Pass,Centre,"awpiratezombie.png",320,350
+ L,80580,60
+  R,0,0,,-1.5
+  MX,0,0,400,850,-170
+  F,0,800,,1
+Animation,Pass,Centre,"firefox-lardtoes.png",320,240,2,500,LoopForever
+ S,0,79830,,0.85
+ MX,0,79830,80580,-200,200
+Animation,Pass,Centre,"firefox-lardtoes.png",320,280,2,500,LoopForever
+ L,80580,60
+  S,0,0,200,0.85,1
+  MY,0,0,200,240,260
+  S,0,200,600,1,0.7
+  MY,0,200,600,260,220
+  S,0,600,800,0.7,0.85
+  MY,0,600,800,220,240
+Sprite,Pass,Centre,"takumazombie.png",320,300
+ L,80580,60
+  R,0,0,,-1.5
+  MX,0,400,800,850,-100
+Sprite,Pass,Centre,"larto-omg.png",320,240
+ M,0,134580,,380,265
+ S,0,134580,,1.18432
+ F,0,136580,,1
+Sprite,Pass,Centre,"larto.png",320,240
+ F,0,133330,,1
+ M,0,133330,134080,276,181,380,265
+ S,1,133330,134080,0.1,1.18544
+ S,0,134080,134580,1.18544,1.185371
+Sprite,Pass,Centre,"whano.png",320,240
+ F,0,134580,134767,0,1
+ M,0,134767,,360,324
+ S,0,134767,,1.64512
+ R,0,134767,136580,-0.3481592
+Sprite,Pass,Centre,"pass.png",320,240
+ S,0,135330,,0.7235202
+ F,0,135330,135392,0,1
+ F,0,135392,135455,1,0
+ F,0,135455,135517,0,1
+ F,0,135517,136580,1,0.9516129
+Sprite,Pass,Centre,"larto.png",320,240
+ M,0,144080,144580,318,604,313,265
+ M,0,144580,160080,313,265,312,216
+Animation,Pass,Centre,"woosh.png",320,240,2,500,LoopForever
+ M,0,144455,144580,338,556,345,478
+ M,0,144580,160080,345,478,346,436
+Sprite,Pass,Centre,"jar.png",320,240
+ M,0,197830,,320,240
+ F,0,197830,198080,0,1
+ F,0,198080,198580,1,0.996
+ F,0,198580,199580,0.996,0.996032
+ P,0,199080,199580,H
+ F,0,199580,199892,0.996032,0
+Sprite,Pass,Centre,"31gabe-dead.png",321,272
+ L,164580,48
+  R,0,0,300,-0.2
+  R,0,300,500,0.2
+Sprite,Pass,Centre,"BURNBITCH.png",310,240
+ L,164580,48
+  MX,0,0,250,310,330
+  MX,0,250,500,330,310
+ S,0,164580,,1.43
+ F,0,164580,188580,0.5
+Sprite,Pass,Centre,"lolwut.png",320,240
+ M,0,198580,,390,293
+ R,0,198580,,-0.2252795
+ F,0,198580,198830,0,1
+ F,0,198830,199580,1,0.9871932
+ F,0,199580,199767,0.9871932,0
+Sprite,Pass,Centre,"larto.png",320,300
+ L,164580,48
+  MX,0,0,200,800,-200
+  R,0,0,250,-1.5
+  MX,0,200,300,-200
+  R,0,250,500,1.5
+  MX,0,300,500,-200,800
+Sprite,Pass,Centre,"larto-^_^.png",320,240
+ M,0,198830,199267,-109,242,97,233
+ P,0,198830,199267,H
+ F,0,198830,199580,1
+ P,0,199267,199892,H
+ F,0,199580,199892,1,0
+Sprite,Pass,Centre,"yourealive.png",320,240
+ M,0,199080,,193,208
+ R,0,199080,,0.28672
+ F,0,199080,199330,0,1
+ F,0,199330,,1
+ F,0,199330,199580,1
+ F,0,199580,199892,1,0
+Sprite,Pass,Centre,"complete.png",320,240
+ S,0,203580,,0.8259199
+ F,0,203580,203830,0,1
+ F,0,203830,205080,1
+ F,0,205080,205330,1,0
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"skyraper.png",123,396
+ S,0,6580,7580,0.6
+Sprite,Foreground,Centre,"teaser.png",320,240
+ F,0,2080,2580,0,1
+ S,0,2080,2580,1.5,0.7
+ M,0,3330,4580,320,240,1512,1236
+ S,2,3330,4580,0.7,3.7
+ F,0,4330,4580,1,0
+Sprite,Foreground,Centre,"gabeland.png",320,240
+ M,1,4455,5080,406,330,310,265
+ S,0,4455,5080,0.1,0.65
+ F,0,6080,,0.7
+ S,1,5080,6580,0.65,4
+Sprite,Foreground,Centre,"gasp.png",317,236
+ F,0,5580,5830,0,1
+ S,0,5830,6080,0.8
+Sprite,Foreground,Centre,"skyraper.png",408,326
+ S,0,6580,,0.7
+ P,0,6580,7580,H
+Sprite,Foreground,Centre,"gaspgasp.png",317,236
+ S,0,6080,6580,0.8
+Sprite,Foreground,Centre,"aLIGHTNING.png",135,231
+ S,0,6580,,1.1
+ P,0,6705,6830,H
+Sprite,Foreground,Centre,"aLIGHTNING.png",320,240
+ S,0,6955,,1.6
+ P,0,7080,7205,H
+Sprite,Foreground,Centre,"aLIGHTNING.png",486,253
+ S,0,7330,,1.3
+ P,0,7455,7580,H
+Sprite,Foreground,Centre,"gladi.png",160,210
+ F,0,7580,8580,1
+Sprite,Foreground,Centre,"gladizombie.png",320,240
+ F,0,8330,8580,0,1
+ M,1,10080,11830,160,210,157,333
+ S,2,10080,11830,1,1.5988
+Sprite,Foreground,Centre,"remmy.png",480,280
+ F,0,7580,9580,1
+Sprite,Foreground,Centre,"remmyzombie.png",320,240
+ F,0,9080,9580,0,1
+ M,1,10080,11830,480,280,500,350
+ S,2,10080,11830,1,1.5
+Sprite,Foreground,Centre,"bgb.png",320,240
+ F,0,14580,14642,0,1
+ F,0,14704,14766,1,0
+ F,0,15267,15330,0,1
+ F,0,15330,15392,1,0
+Sprite,Foreground,Centre,"aLIGHTNING.png",320,240
+ S,0,14580,,1.4
+ F,0,14580,14642,0,1
+ F,0,14704,14766,1,0
+ P,0,14705,14830,H
+ F,0,15267,15330,0,1
+ F,0,15330,15392,1,0
+Sprite,Foreground,Centre,"gladizombie.png",320,240
+ M,2,11830,12330,-92,317,123,316
+ M,1,12330,12830,123,316,220,610
+Sprite,Foreground,Centre,"remmyzombie.png",740,335
+ MX,2,11830,12330,740,549
+ P,0,11830,12830,H
+ M,0,12330,12830,549,332,400,646
+Sprite,Foreground,Centre,"jar.png",194,261
+ F,0,392,580,0,1
+ F,0,580,2080,1
+Sprite,Foreground,Centre,"larto.png",435,260
+ F,0,392,580,0,1
+ F,0,580,2080,1
+Sprite,Foreground,Centre,"thing.png",320,351
+ F,0,392,580,0,1
+ F,0,580,2080,1
+Sprite,Foreground,Centre,"larto-omg.png",320,240
+ M,0,11830,12267,221,310,279,310
+ M,0,12267,12580,279,310,215,126
+ M,0,12580,13080,215,126,215,163
+ P,0,13080,13892,H
+Sprite,Foreground,Centre,"gettinfamous.png",326,378
+ S,0,830,,1.4
+ F,0,830,1080,0,1
+ R,0,830,2080,-0.35
+Sprite,Foreground,Centre,"thatdot.png",214,296
+ R,0,2580,,0.5
+ F,0,2580,2830,0,1
+ F,0,3330,3455,1,0
+Sprite,Foreground,Centre,"larto.png",320,240
+ P,0,13892,14267,H
+ M,0,14267,14580,215,161,161,158
+ R,0,14267,14580,0,-0.9
+ M,0,14580,14830,161,158,-219,135
+Sprite,Foreground,Centre,"jar-oshi0.png",320,240
+ M,0,11830,12267,403,306,364,311
+ M,0,12267,12580,364,311,390,143
+ M,0,12580,12830,390,143,393,181
+ M,0,12830,13580,393,181,393,180
+ P,0,13330,13580,H
+Sprite,Foreground,Centre,"jar.png",392,179
+ P,0,13580,14330,H
+ M,0,14830,15142,392,179,488,159
+ R,0,14830,15142,0,1
+ M,0,15142,15580,488,159,852,139
+Sprite,Foreground,Centre,"happening.png",197,187
+ R,0,11830,,0.35
+ F,0,11830,12080,0,1
+ F,0,12830,12955,1,0
+Sprite,Foreground,Centre,"splitup.png",456,274
+ R,0,13580,,-0.23
+ F,0,13580,13830,0,1
+ F,0,14580,14705,1,0
+Sprite,Foreground,Centre,"PERTH.png",145,418
+ S,0,64580,,1.2
+ F,0,64580,64830,0,1
+ F,0,65080,65330,1,0
+Animation,Foreground,Centre,"woosh.png",-4,216,2,500,LoopForever
+ R,0,64580,66330,1.5
+Sprite,Foreground,Centre,"bgw.png",320,240
+ T,Passing,0,1000000
+  F,0,0,300,1,0
+ T,Failing,0,1000000
+  F,0,0,300,1,0
+Sprite,Foreground,Centre,"bgb.png",320,240
+ L,71330,2
+  F,0,0,100,0,1
+  F,0,100,200,1,0
+Sprite,Foreground,Centre,"door.png",320,240
+ F,0,68580,70580,1
+Sprite,Foreground,Centre,"door-jar.png",320,240
+ F,0,70330,70580,0,1
+ F,0,71580,,1
+Sprite,Foreground,Centre,"umad.png",320,240
+ F,0,69080,69330,0,1
+ R,0,70205,,-0.3
+ F,0,70330,70580,1,0
+Sprite,Foreground,Centre,"THEFUCK.png",320,240
+ F,0,70830,71080,0,1
+ F,0,71080,71580,1
+Sprite,Foreground,Centre,"Meanwhile.png",130,50
+ F,0,72580,72830,0,1
+ F,0,74080,74330,1,0
+Sprite,Foreground,Centre,"myhouse.png",139,135
+ F,0,73080,73330,0,1
+ F,0,74330,74580,1,0
+Sprite,Foreground,Centre,"computer.png",160,280
+ F,0,73080,73330,0,1
+ S,0,73330,,0.75
+ F,0,78580,78830,1,0
+Sprite,Foreground,Centre,"larto.png",320,240
+ MX,0,74580,75330,748,350
+ R,0,76580,76830,0,-1.5
+ S,0,76830,77330,1,0
+ MX,0,76830,77330,350,150
+ F,0,77080,77330,1,0
+Sprite,Foreground,Centre,"takumazombie.png",320,240
+ MX,0,77830,78330,728,376
+ F,0,78330,78580,1,0
+ S,0,78330,78580,1,0.1
+ R,0,78330,78580,0,-1.7
+ MX,0,78330,78580,376,174
+Sprite,Foreground,Centre,"awpiratezombie.png",320,240
+ MX,0,78330,78830,750,130
+ F,0,78580,78830,1,0
+ S,0,78580,78830,1,0
+ R,0,78580,78830,0,-1.7
+Sprite,Foreground,Centre,"shouldbesafe.png",320,240
+ R,0,75830,,-0.23
+ F,0,75830,76080,0,1
+ F,0,77080,77330,1,0
+Sprite,Foreground,Centre,"larto-door.png",320,240
+ M,0,129080,,436,252
+ M,0,129080,129830,436,252,317,208
+ M,0,129830,132080,317,208,318,208
+Sprite,Foreground,Centre,"bgb.png",320,240
+ S,0,131080,,1
+ F,0,131080,132080,0,1
+ F,0,132080,132580,1
+ F,0,132580,133080,1,0
+Sprite,Foreground,Centre,"larto.png",320,240
+ M,0,128580,129080,437,249
+ F,0,129080,,1
+Sprite,Foreground,Centre,"foundPC.png",320,240
+ M,0,129080,,320,240
+ R,0,129080,,-0.3072003
+ F,0,129080,129330,0,1
+ F,0,129330,131080,1,0.988
+ F,0,131080,131330,0.988,0
+Animation,Foreground,Centre,"peppy-lazor.png",320,240,2,500,LoopForever
+ F,0,136580,137580,1
+ S,0,136580,137580,0.8054399
+ F,0,137580,137830,1,0
+Sprite,Foreground,Centre,"jar-xOx.png",320,240
+ S,0,137830,,0.78496
+ F,0,137830,138080,0,1
+ F,0,138080,138580,1
+Sprite,Foreground,Centre,"jarzombie.png",320,240
+ S,0,138330,,0.78496
+ F,0,138330,138580,0,1
+ F,0,138580,139580,1,0.948
+ F,0,139580,140080,0.948,0
+Animation,Foreground,Centre,"larto-scared.png",320,240,2,500,LoopForever
+ S,0,139330,,1.4096
+ F,0,139580,139830,0,1
+ F,0,139830,,1
+ M,0,139330,143080,499,241
+ M,0,143080,143392,499,241,971,196
+ R,0,143080,143392,0,1.20832
+ P,0,143080,143392,H
+Sprite,Foreground,Centre,"cunt.png",320,240
+ S,0,140080,,1.13312
+ F,0,140080,140330,0,1
+ F,0,140330,141580,1,0.98
+ F,0,141580,141830,0.98,0
+Sprite,Foreground,Centre,"find a way.png",320,240
+ M,0,140580,,315,298
+ F,0,140580,140830,0,1
+ F,0,140830,142580,1
+ F,0,142580,142830,1,0
+Sprite,Foreground,Centre,"larto.png",320,240
+ M,0,160080,160580,51,606,153,277
+ P,0,160080,160580,H
+ P,0,160580,161080,H
+ P,0,161080,161300,H
+ P,0,161300,161580,H
+ M,0,162330,,152,279
+Sprite,Foreground,Centre,"31gabe.png",320,240
+ M,0,162330,163080,750,287,497,292
+ M,0,164580,,497,292
+Sprite,Foreground,Centre,"larto-oshi1.png",320,240
+ P,0,162330,164080,H
+ M,0,162330,164580,176,280
+ P,0,164080,164580,H
+Sprite,Foreground,Centre,"lola.png",320,240
+ M,0,162892,,375,156
+ R,0,162892,,-0.3686401
+ F,0,162892,163330,0,1
+ F,0,163330,164080,1,0.9977169
+Sprite,Foreground,Centre,"DIE.png",320,240
+ F,0,164080,,1
+ S,0,164080,164580,4.1296
+Sprite,Foreground,Centre,"derp.png",320,240
+ S,0,188580,,0.7849602
+ M,0,188580,192580,440,125
+ F,0,197080,,1
+Sprite,Foreground,Centre,"larto.png",320,240
+ M,0,188580,190580,363,283
+ P,0,189580,190580,H
+ M,1,190580,191580,363,283,171,241
+ M,0,191580,192580,171,241
+Sprite,Foreground,Centre,"31gabe-dead.png",320,240
+ R,0,188580,,-1.26976
+ M,0,188580,192580,188,407
+Sprite,Foreground,Centre,"larto-cannon.png",320,240
+ M,0,192580,196580,320,240
+ M,0,196580,196642,320,240,296,244
+ P,0,192580,197080,H
+ R,0,197080,,0
+Sprite,Foreground,Centre,"jarzombie.png",320,240
+ V,0,197080,,1,1
+ F,0,197330,197580,1,0
+ M,0,197580,,320,240
+Animation,Foreground,Centre,"lazor.png",320,240,2,500,LoopForever
+ M,0,197080,,320,240
+ S,0,197080,,1.70656
+ F,0,197080,198080,0.75424
+ F,0,198080,198330,0.75424,0
+Sprite,Foreground,Centre,"jarzombie.png",320,240
+ F,0,189580,,1
+ M,0,189580,189705,719,252,649,237
+ M,0,189705,189830,649,237,608,252
+ M,0,189830,189955,608,252,563,250
+ M,0,189955,190080,563,250,532,270
+ M,0,190080,194580,532,270
+ P,0,189580,196580,H
+ M,0,194580,196580,532,270,491,265
+ M,0,196580,196705,491,265,848,191
+ P,0,196580,196705,H
+Sprite,Foreground,Centre,"darkenergy.png",320,240
+ F,0,144080,144330,0,1
+ M,0,144330,,322,332
+ F,0,144330,,1
+ F,0,144330,159830,1
+ F,0,159830,160080,1,0
+Sprite,Foreground,Centre,"sorry.png",320,240
+ R,0,192580,,0.1433603
+ F,0,192580,193080,0,1
+ F,0,193080,195580,1,0.994
+ F,0,195580,195830,0.994,0
+Sprite,Foreground,Centre,"space.png",320,240
+ S,0,200580,,4.86048
+ F,0,200580,200830,0,1
+ F,0,200830,201580,1,0.984
+ F,0,201580,201830,0.984,0
+Sprite,Foreground,Centre,"here goes nothing.png",320,240
+ S,0,195580,,1.39936
+ R,0,195580,,-0.1638403
+ F,0,195580,195830,0,1
+ F,0,195830,196580,1
+ F,0,196580,196830,1,0
+Sprite,Foreground,Centre,"earth.png",320,240
+ M,0,200580,,320,240
+ F,0,200580,200830,0,1
+ F,0,200830,201580,1
+ S,0,200580,201830,1,2.39264
+ F,0,201580,201830,1,0
+Sprite,Foreground,Centre,"gladi.png",320,240
+ M,0,202330,,144,275
+ F,0,202330,202580,0,1
+ F,0,202580,203330,1
+ F,0,203330,203580,1,0
+Sprite,Foreground,Centre,"remmy.png",320,240
+ M,0,202830,,502,288
+ F,0,202830,203080,0,1
+ F,0,203080,203330,1,0.952
+ F,0,203330,203580,0.952,0
+//Storyboard Sound Samples
+Sample,67330,2,"pass.mp3",100
+Sample,67330,1,"fail.mp3",100
