@@ -1,0 +1,41 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"SB\My bounce.png",320,240
+ L,22073,60
+  F,1,0,338,0.8,0
+  S,1,0,338,0.8,0.85
+ L,86975,32
+  F,1,0,338,0.8,0
+  S,1,0,338,0.8,0.85
+Sprite,Foreground,Centre,"SB\My lovely bounce.png",320,240
+ L,11256,6
+  F,1,0,1353,0.8,0
+ L,20721,3
+  F,1,0,507,0.8,0
+ L,43707,14
+  F,1,0,676,0.8,0
+ L,54524,28
+  F,1,0,338,0.8,0
+ L,65341,15
+  F,1,0,1353,0.8,0
+Sprite,Foreground,Centre,"SB\My lovely bounce.png",320,240
+ L,19031,2
+  F,1,0,676,0.8,0
+ L,76158,29
+  F,1,0,338,0.8,0
+Sprite,Foreground,Centre,"SB\white.png",320,240
+ L,22073,1
+  F,1,0,339,0.8,0
+ L,32890,1
+  F,1,0,339,0.8,0
+ L,42355,1
+  F,1,0,339,0.8,0
+ L,86975,1
+  F,1,0,339,0.8,0
+ L,97792,1
+  F,1,0,339,0.8,0
+//Storyboard Sound Samples
