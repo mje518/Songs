@@ -1,0 +1,25 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"Yes you can.jpg",320,240
+ L,25863,64
+  F,1,0,343,0.8,0
+  S,1,0,343,0.8,0.85
+Sprite,Foreground,Centre,"Or maybe not.jpg",320,240
+ L,58755,64
+  F,1,0,343,0.8,0
+Sprite,Foreground,Centre,"white.png",320,240
+ L,25863,1
+  F,1,0,343,0.8,0
+ L,36835,1
+  F,1,0,343,0.8,0
+ L,47806,1
+  F,1,0,343,0.8,0
+ L,58755,1
+  F,1,0,343,0.8,0
+ L,69726,1
+  F,1,0,343,0.8,0
+//Storyboard Sound Samples

@@ -1,0 +1,42 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"black.jpg",320,240
+ F,0,18361,18857,0,0.5
+ F,0,26471,26968,0.5,0
+ F,0,87216,87712,0,0.5
+ F,0,94995,95492,0.5,0
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"Dangerousx.jpg",320,240
+ L,29450,61
+  F,1,0,331,0.8,0
+ L,98636,60
+  F,1,0,331,0.8,0
+ L,130084,30
+  F,1,0,331,0.8,0
+Sprite,Foreground,Centre,"white.png",320,240
+ L,29450,1
+  F,1,0,331,0.8,0
+ L,40043,1
+  F,1,0,331,0.8,0
+ L,50636,1
+  F,1,0,331,0.8,0
+ L,61230,1
+  F,1,0,331,0.8,0
+ L,71823,1
+  F,1,0,331,0.8,0
+ L,82416,1
+  F,1,0,331,0.8,0
+ L,98636,1
+  F,1,0,331,0.8,0
+ L,108898,1
+  F,1,0,331,0.8,0
+ L,120815,1
+  F,1,0,331,0.8,0
+ L,130084,1
+  F,1,0,331,0.8,0
+ L,139353,1
+  F,1,0,331,0.8,0
+//Storyboard Sound Samples
