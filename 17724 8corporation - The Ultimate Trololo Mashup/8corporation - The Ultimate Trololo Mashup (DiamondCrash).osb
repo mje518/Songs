@@ -1,0 +1,60 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"agentspinhere.png",320,400
+ M,2,4767,5075,320,480,320,360
+ F,2,4767,5075,0,1
+ F,2,23844,24152,1,0
+Sprite,Foreground,Centre,"lesjuh.png",320,400
+ M,2,24305,24767,320,480,320,360
+ F,2,24305,24767,0,1
+ F,2,39536,41998,1,0
+Sprite,Foreground,Centre,"krisom.png",320,400
+ M,1,49382,51536,320,480,320,240
+ F,1,49382,51536,0,0.5
+ F,2,51228,51844,0.5,1
+ M,2,51536,51844,320,240,320,120
+ F,2,61382,61690,1,0
+Sprite,Foreground,Centre,"dusty.png",320,400
+ M,2,61690,61844,320,480,320,360
+ F,2,61690,61844,0,1
+ F,2,61844,75844,1
+ F,2,75844,65998,1,0
+Sprite,Foreground,Centre,"iamnotshinta.png",320,400
+ M,2,84459,85075,320,480,320,120
+ F,2,84459,85075,0,1
+ F,2,104152,104459,1,0
+Sprite,Foreground,Centre,"doomsday93.png",320,400
+ M,2,104152,104767,320,480,320,360
+ F,2,104152,104767,5075,0
+ F,2,104767,105382,0,1
+ F,2,120152,120767,1,0
+Sprite,Foreground,TopLeft,"ran.png",320,376
+ M,2,122305,122613,24,480,24,360
+ F,2,122305,122613,5075,0
+ F,2,122613,122921,0,1
+ F,2,142305,142921,1,0
+Sprite,Foreground,TopLeft,"dom.png",320,376
+ M,2,122603,122818,152,480,152,360
+ F,2,122603,122818,123023,5075
+ F,2,122818,123033,5075,0
+ F,2,123033,123248,0,1
+ F,2,142305,142921,1,0
+Sprite,Foreground,TopLeft,"jibber.png",320,376
+ M,2,122818,123023,280,480,280,360
+ F,2,122818,123023,5075,0
+ F,2,123023,123228,0,1
+ F,2,142305,142921,1,0
+Sprite,Foreground,TopLeft,"ish.png",320,376
+ M,2,123023,123228,516,480,516,360
+ F,2,123023,123228,5075,0
+ F,2,123228,123433,0,1
+ F,2,142305,142921,1,0
+Sprite,Foreground,Centre,"diamondcrash.png",320,400
+ M,2,142818,143075,320,480,320,120
+ F,2,142818,143075,0,1
+ F,2,157690,159228,1,0
+//Storyboard Sound Samples
