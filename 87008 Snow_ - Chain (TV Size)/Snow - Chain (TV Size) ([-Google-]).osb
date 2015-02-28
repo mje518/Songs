@@ -1,0 +1,137 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"Lyric\jp\A.png",320,240
+ F,0,6662,7037,0,1
+ F,0,7037,9662,1
+ M,0,7037,10037,260,77
+ F,0,9662,10037,1,0
+Sprite,Foreground,Centre,"Lyric\jp\B.png",320,240
+ F,0,11162,11537,0,1
+ M,0,11162,18662,260,77
+ F,0,11537,18287,1
+ F,0,18287,18662,1,0
+Sprite,Foreground,Centre,"Lyric\jp\C.png",320,240
+ F,0,19037,19412,0,1
+ M,0,19037,22412,260,77
+ F,0,19412,22037,1
+ F,0,22037,22412,1,0
+Sprite,Foreground,Centre,"Lyric\jp\D.png",320,240
+ F,0,23162,23537,0,1
+ M,0,23162,30287,260,77
+ F,0,23537,29912,1
+ F,0,29912,30287,1,0
+Sprite,Foreground,Centre,"Lyric\jp\E.png",320,240
+ F,0,31787,32162,0,1
+ M,0,31787,36287,260,77
+ F,0,32162,35912,1
+ F,0,35912,36287,1,0
+Sprite,Foreground,Centre,"Lyric\jp\F.png",320,240
+ F,0,37037,37412,0,1
+ M,0,37037,41912,260,77
+ F,0,37412,41537,1
+ F,0,41537,41912,1,0
+Sprite,Foreground,Centre,"Lyric\jp\G.png",320,240
+ F,0,42287,42662,0,1
+ M,0,42287,47537,260,77
+ F,0,42662,47162,1
+ F,0,47162,47537,1,0
+Sprite,Foreground,Centre,"Lyric\jp\H.png",320,240
+ F,0,47912,48287,0,1
+ M,0,47912,53162,260,77
+ F,0,48287,52787,1
+ F,0,52787,53162,1,0
+Sprite,Foreground,Centre,"Lyric\jp\I.png",320,240
+ F,0,53912,54287,0,1
+ M,0,53912,59162,260,77
+ F,0,54287,58787,1
+ F,0,58787,59162,1,0
+Sprite,Foreground,Centre,"Lyric\jp\J.png",320,240
+ F,0,59537,59912,0,1
+ M,0,59537,65912,260,77
+ F,0,59912,65912,1
+ F,0,65912,66287,1,0
+Sprite,Foreground,Centre,"Lyric\jp\K.png",320,240
+ F,0,67412,67787,0,1
+ M,0,67412,70037,260,77
+ F,0,67787,69287,1
+ F,0,69287,70037,1,0
+Sprite,Foreground,Centre,"Lyric\jp\L.png",320,240
+ F,0,71537,71912,0,1
+ M,0,71537,79037,260,77
+ F,0,71912,78287,1
+ F,0,78287,79037,1,0
+Sprite,Foreground,Centre,"Lyric\jp\N.png",320,240
+ F,0,80537,80912,0,1
+ M,0,80537,85787,260,77
+ F,0,80912,85412,1
+ F,0,85412,85787,1,0
+Sprite,Foreground,Centre,"Lyric\CH\A.png",320,240
+ F,0,6662,7037,0,1
+ F,0,7037,9662,1
+ M,0,7718,10037,221,407
+ F,0,9662,10037,1,0
+Sprite,Foreground,Centre,"Lyric\CH\B.png",320,240
+ M,0,11162,,221,407
+ F,0,11162,11537,0,1
+ F,0,11537,18287,1
+ F,0,18287,18662,1,0
+Sprite,Foreground,Centre,"Lyric\CH\C.png",320,240
+ M,0,19037,,221,407
+ F,0,19037,19412,0,1
+ F,0,19412,22037,1
+ F,0,22037,22412,1,0
+Sprite,Foreground,Centre,"Lyric\CH\D.png",320,240
+ M,0,23162,,221,407
+ F,0,23162,23537,0,1
+ F,0,23537,29912,1
+ F,0,29912,30287,1,0
+Sprite,Foreground,Centre,"Lyric\CH\E.png",320,240
+ M,0,31787,,221,407
+ F,0,31787,32162,0,1
+ F,0,32162,35912,1
+ F,0,35912,36287,1,0
+Sprite,Foreground,Centre,"Lyric\CH\F.png",320,240
+ M,0,37037,,221,407
+ F,0,37037,37412,0,1
+ F,0,37412,41537,1
+ F,0,41537,41912,1,0
+Sprite,Foreground,Centre,"Lyric\CH\G.png",320,240
+ M,0,41912,,221,407
+ F,0,42287,42662,0,1
+ F,0,42662,47162,1
+ F,0,47162,47537,1,0
+Sprite,Foreground,Centre,"Lyric\CH\H.png",320,240
+ M,0,47912,,221,407
+ F,0,47912,48287,0,1
+ F,0,48287,52787,1
+ F,0,52787,53162,1,0
+Sprite,Foreground,Centre,"Lyric\CH\I.png",320,240
+ M,0,53912,,221,407
+ F,0,53912,54287,0,1
+ F,0,54287,58787,1
+ F,0,58787,59162,1,0
+Sprite,Foreground,Centre,"Lyric\CH\J.png",320,240
+ M,0,59537,,221,407
+ F,0,59537,59912,0,1
+ F,0,59912,65912,1
+ F,0,65912,66287,1,0
+Sprite,Foreground,Centre,"Lyric\CH\K.png",320,240
+ M,0,67412,,221,407
+ F,0,67412,67787,0,1
+ F,0,67787,69287,1
+ F,0,69287,70037,1,0
+Sprite,Foreground,Centre,"Lyric\CH\L.png",320,240
+ M,0,71537,,221,407
+ F,0,71537,71912,0,1
+ F,0,71912,78287,1
+ F,0,78287,79037,1,0
+Sprite,Foreground,Centre,"Lyric\CH\N.png",320,240
+ M,0,80537,,221,407
+ F,0,80537,80912,0,1
+ F,0,80912,85412,1
+ F,0,85412,85787,1,0
+//Storyboard Sound Samples

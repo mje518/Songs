@@ -1,0 +1,51 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+Sprite,Background,Centre,"BG.jpg",320,240
+ F,0,0,,0
+Sprite,Background,Centre,"SB\Lyrics1.png",320,240
+ S,0,7309,,1.1
+ F,0,7309,7770,0,1
+ M,0,7309,43770,295,580,295,220
+Sprite,Background,Centre,"SB\Chorus1.png",320,240
+ F,0,43309,,0
+ S,0,43309,,1.1
+ F,0,43309,43770,0,1
+ M,0,43309,65001,230,630,230,180
+Sprite,Background,Centre,"SB\Chorus2.png",320,240
+ S,0,102847,,1.1
+ F,0,102847,103309,0,1
+ M,0,102847,121309,230,580,230,210
+Sprite,Background,Centre,"SB\Lyrics2.png",320,240
+ S,0,65924,,1.1
+ F,0,65924,66386,0,1
+ M,0,65924,101924,235,580,235,210
+Sprite,Background,Centre,"SB\Lyrics3.png",320,240
+ S,0,120847,,1.1
+ F,0,120847,121309,0,1
+ M,0,120847,133309,500,480,500,310
+ F,0,132386,132501,1,0.1013827
+ F,0,132501,,0
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"SB\Lyrics.png",320,240
+ M,0,7309,,320,240
+ S,0,7309,,1
+ F,0,7309,7770,0,1
+ F,0,7770,132501,1
+ F,0,132501,133309,1,0
+Sprite,Foreground,Centre,"SB\BG.png",320,240
+ L,44693,12
+  F,0,0,461,1,0
+  F,0,461,1846,0
+ L,103770,9
+  F,0,0,461,1,0
+  F,0,461,1846,0
+ L,120386,4
+  F,0,0,461,0.5,0
+  F,0,461,1846,0
+ L,127770,4
+  F,0,0,461,0.25,0
+  F,0,461,924,0
+//Storyboard Sound Samples
