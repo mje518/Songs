@@ -21,7 +21,7 @@ Title:Solo Tu (Only You)
 Artist:Nightcore
 Creator:osuplayer111
 Version:Normal+
-Source:Nightcore III
+Source:
 Tags:Techno Trance
 
 [Difficulty]
@@ -33,7 +33,7 @@ SliderTickRate:2
 
 [Events]
 //Background and Video events
-0,0,"Normal BG.jpg"
+0,0,"BG.jpg"
 //Break Periods
 2,28843,30358
 //Storyboard Layer 0 (Background)

@@ -5,7 +5,7 @@ AudioFilename: League of Legends - Jinxed.mp3
 AudioLeadIn: 0
 PreviewTime: 47828
 Countdown: 0
-SampleSet: Soft
+SampleSet: None
 StackLeniency: 0.7
 Mode: 0
 LetterboxInBreaks: 1
@@ -26,8 +26,8 @@ Creator:Hakrow
 Version:Smile
 Source:League of Legends
 Tags:League of Legends Djerv Get Jinxed jinx hakrow
-BeatmapID:312692
-BeatmapSetID:122155
+BeatmapID:358309
+BeatmapSetID:144196
 
 [Difficulty]
 HPDrainRate:5
