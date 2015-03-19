@@ -1,0 +1,211 @@
+[Events]
+//Background and Video events
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+Sprite,Foreground,Centre,"SB\tapeshut.png",320,240
+ F,0,32397,32750,0,1
+ S,0,32397,32750,1.7168,0.70304
+ M,0,32750,,420,182
+ F,0,32750,33044,1
+ F,0,33044,33103,1
+ F,0,33103,33985,1,0
+Sprite,Foreground,Centre,"SB\orange.png",320,240
+ L,34515,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\purple.png",320,240
+ L,35927,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\pink.png",320,240
+ L,37339,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\yellow.png",320,240
+ L,38751,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\green.png",320,240
+ L,40163,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\orange.png",320,240
+ L,41575,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\purple.png",320,240
+ L,42987,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\pink.png",320,240
+ L,44399,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\yellow.png",320,240
+ L,45811,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\green.png",320,240
+ L,47223,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\orange.png",320,240
+ L,48635,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\purple.png",320,240
+ L,50047,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\pink.png",320,240
+ L,51459,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\yellow.png",320,240
+ L,52871,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\green.png",320,240
+ L,54283,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\strobe.png",320,240
+ M,0,84985,,320,240
+ F,0,84985,86044,1,0
+ F,0,87809,88868,1,0
+ F,0,90632,90809,1,0
+ F,0,121691,122397,1,0.03954804
+ F,0,123103,123809,1,0.05451257
+ F,0,144279,144456,1,0.07058316
+ F,0,178691,179927,1,0.1073398
+Sprite,Foreground,Centre,"SB\orange.png",320,240
+ L,90985,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\purple.png",320,240
+ L,92397,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\pink.png",320,240
+ L,93809,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\yellow.png",320,240
+ L,95221,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\green.png",320,240
+ L,96633,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\orange.png",320,240
+ L,98045,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\purple.png",320,240
+ L,99457,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\pink.png",320,240
+ L,100869,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\yellow.png",320,240
+ L,102281,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\green.png",320,240
+ L,103693,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\orange.png",320,240
+ L,105105,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\purple.png",320,240
+ L,106517,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\pink.png",320,240
+ L,107929,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\yellow.png",320,240
+ L,109341,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\green.png",320,240
+ L,110753,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\strobe.png",320,240
+ M,0,114632,,320,240
+ F,0,114632,115691,1,0
+Sprite,Foreground,Centre,"SB\orange.png",320,240
+ L,144632,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\purple.png",320,240
+ L,146044,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\pink.png",320,240
+ L,147456,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\yellow.png",320,240
+ L,148868,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\green.png",320,240
+ L,150280,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\orange.png",320,240
+ L,151692,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+Sprite,Foreground,Centre,"SB\purple.png",320,240
+ L,153104,1
+  M,0,0,,394,240
+  F,0,0,529,1,0
+  F,0,675,1176,1,0
+//Storyboard Sound Samples
